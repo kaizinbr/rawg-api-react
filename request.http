@@ -1,0 +1,4 @@
+## const key = process.env.REACT_APP_API_KEY;
+
+## GET
+GET https://api.rawg.io/api/games?key=6b749e73010d4081b7a673763e7c93d6
