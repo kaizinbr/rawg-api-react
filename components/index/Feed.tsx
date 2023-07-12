@@ -1,11 +1,10 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import getGames from '../../services/getGames';
-import GameCard from './GameCard';
+import getGames from '../../services/rawg/getGameList';
+import GameCard from './gameCard/GameCard';
 
 interface Game {
     id: number;
-    // Outras propriedades relevantes do jogo
 }
 
 interface Props {
@@ -20,7 +19,6 @@ const Feed = ({columnsCount}: Props) => {
             const gameData = await getGames();
             setGames(gameData);
         };
-
         fetchData();
     }, []);
 
@@ -40,16 +38,12 @@ const Feed = ({columnsCount}: Props) => {
     return (
         <div className={` feed
             grid gap-6 grid-cols-${columnsCount}
-            px-8
+            px-8 items-start
         `}
         style={{
             gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`
         }}
         >
-            {/* {games.map((game) => (
-                <GameCard key={game.id} game={game} />
-            ))} */}
-
             {columns.map((column, index) => (
                 <div key={`column-${index}`} className="column grid gap-6">
                     {column.map((game) => (

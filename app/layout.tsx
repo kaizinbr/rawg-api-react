@@ -17,13 +17,13 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en">
+        <html lang="pt-br">
             <body className={inter.className + `
                 bg-neutral-900 h-full mt-24
             `}>
                 <Navbar />
                 <NavControls/>
-                {children}
+                <main>{children}</main>
             </body>
         </html>
     )

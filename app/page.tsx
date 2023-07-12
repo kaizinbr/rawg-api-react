@@ -1,5 +1,5 @@
 import Index from '@/components/index/Index'
-import App from '@/components/index/Banner'
+import Banner from '@/components/index/bannerCard/BConstructor'
 
 export default function Home() {
     return (
@@ -7,7 +7,7 @@ export default function Home() {
             flex flex-col items-center justify-center h-full w-full
             gap-20
         `}>
-            <App />
+            <Banner />
             <Index />
 
         </main>

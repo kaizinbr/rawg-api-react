@@ -1,8 +1,12 @@
+"use client";
 import Link from 'next/link'
-import { BiHomeCircle, BiGame, BiHash, BiPlus } from "react-icons/bi";
+import { BiHomeCircle, BiGame, BiHash, BiPlus, BiMenu } from "react-icons/bi";
 import CreatePost from './CreatePost';
+import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
 
-export function FeedLink() {
+
+function FeedLink() {
     return (
         <Link href="#" passHref className={`
             flex flex-row items-center justify-center gap-1
@@ -11,17 +15,17 @@ export function FeedLink() {
             text-red-400
             
         `}>
-            <BiHomeCircle className='h-5 w-5'/>
-            <span className={`
+            <BiHomeCircle className='h-5 w-5' />
+            {/* <span className={`
                 text-sm font-semibold
                 invisible group-hover/navbtns:visible
                 transition-all
-            `}>Início</span>
+            `}>Início</span> */}
         </Link>
     )
 }
 
-export function GameLink() {
+function GameLink() {
     return (
         <Link href="#" passHref className={`
             flex flex-row items-center justify-center gap-1
@@ -29,71 +33,180 @@ export function GameLink() {
             hover:bg-neutral-700/50 transition-all
             
         `}>
-            <BiGame className='h-5 w-5'/>
-            <span className={`
+            <BiGame className='h-5 w-5' />
+            {/* <span className={`
                 text-sm font-semibold
                 invisible group-hover/navbtns:visible
                 transition-all
-            `}>Jogos</span>
+            `}>Jogos</span> */}
         </Link>
     )
 }
 
-export function AllLink() {
+function AllLink() {
     return (
         <Link href="#" passHref className={`
             flex flex-row items-center justify-center gap-1
             p-2 rounded-full group-hover/navbtns:rounded-xl
             hover:bg-neutral-700/50 transition-all
         `}>
-            <BiHash className='h-5 w-5'/>
-            <span className={`
+            <BiHash className='h-5 w-5' />
+            {/* <span className={`
                 text-sm font-semibold
                 invisible group-hover/navbtns:visible
                 transition-all
-            `}>Explorar</span>
+            `}>Explorar</span> */}
         </Link>
     )
 }
 
-export function CreatePostLink() {
+function CreatePostLink() {
     return (
         <Link href="#" passHref className={`
             flex flex-row items-start justify-start gap-1
             p-2 rounded-full w-28  group-hover/navbtns:rounded-xl
             hover:bg-neutral-700/50 transition-all
         `}>
-            <BiPlus className='h-5 w-5'/>
-            <span className={`
+            <BiPlus className='h-5 w-5' />
+            {/* <span className={`
                 text-sm font-semibold
                 invisible group-hover/navbtns:visible
                 transition-all
-            `}>Criar post</span>
+            `}>Criar post</span> */}
         </Link>
     )
 }
 
-export default function NavControls() {
+function MenuBtn () {
     return (
-        <div className={`
-        flex flex-col items-center justify-center
-        w-16 h-full z-30
-        fixed top-0 left-4
-        `}>
-            <div className={`
-                flex flex-col items-start justify-center gap-4
-                bg-neutral-800/80 rounded-[calc(56px/2)] px-2 py-3
-                h-fit w-[56px] hover:w-36 hover:rounded-2xl transition-all
-                fixed bottom-auto left-4 overflow-hidden
+        <BiMenu className={`
+            h-5 w-5
+            text-neutral-100
+            group-hover/navbtns:text-neutral-200
+            transition-all
+        `} />
+    )
+}
+
+export default function NavControls() {
+
+    const { scrollY } = useScroll()
+
+    const ref = useRef<any>(null)
+    const [isScrolling, setIsScrolling] = useState(false)
+
+    useMotionValueEvent(scrollY, "change", async (latest) => {
+        await (async () => {
+            isMenuOpen ? handleMenuOpen() : null;            
+            setIsScrolling(true);
+            ref.current.style.opacity = `.5`;
+        })()
+        setTimeout(() => {
+            ref.current.style.opacity = `1`
+        }
+            , 60000)
+
+    })
+
+    // SHOW HIDE MENU
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    
+    const handleMenuOpen = () => {
+        setIsMenuOpen(!isMenuOpen)
+        isMenuOpen ? ref.current.setAttribute('style', 'height: 56px !important') : ref.current.setAttribute('style', 'height: 250px !important')
+    }
+
+    // const [height, setHeight] = useState(0)
+
+    useEffect(() => {
+        setIsMenuOpen(true)
+        ref.current.setAttribute('style', 'height: 250px !important')
+    }, [])
+
+    
+    
+    return (
+            <motion.div 
+            className={`
+                flex flex-col-reverse items-center justify-start
+                bg-neutral-800/80 rounded-[calc(56px/2)] 
+                h-[56px] w-[56px] hover:opacity-100 transition-all
+                fixed bottom-8 left-4  z-50
                 backdrop-blur-md border border-neutral-700
                 group/navbtns
-            `}>
-                <FeedLink/>
-                <GameLink/>
-                <AllLink/>  
-                <CreatePostLink/>
+            `}
+            style={{}}
+            ref={ref}
+            >
+                <div 
+                onClick={() => {
+                    handleMenuOpen();                    
+                }}
+                className={`
+                    flex flex-row items-center justify-center
+                    h-[56px] min-h-[56px] w-[56px] cursor-pointer
+                    rounded-full group-hover/navbtns:rounded-xl
+                    relative
+                `}
+                >
+                    <BiMenu
+                    className={`
+                        h-5 w-5
+                        text-neutral-100
+                        group-hover/navbtns:text-neutral-200
+                        absolute
+                    `}/>
+                </div>
 
-            </div>
-        </div>
+                <AnimatePresence>
+                    {isMenuOpen && (
+                        <motion.div className={`
+                            flex flex-col items-center justify-center gap-2
+                            w-[56px] 
+                            group/navbtns
+                        `}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 20 }}
+                            transition={{ duration: .2 }}
+                        >
+                            <div className={`
+                                w-[40px] h-[40px] flex justify-center items-center
+                                rounded-full hover:bg-neutral-500/50
+                                transition duration-300 cursor-pointer
+                            `}>
+                                <BiPlus className='h-5 w-5' />
+                            </div>
+                            <div className={`
+                                w-[40px] h-[40px] flex justify-center items-center
+                                rounded-full hover:bg-neutral-500/50
+                                transition duration-300 cursor-pointer
+                            `}>
+                                <BiGame className='h-5 w-5' />
+                            </div>
+                            <div className={`
+                                w-[40px] h-[40px] flex justify-center items-center
+                                rounded-full hover:bg-neutral-500/50
+                                transition duration-300 cursor-pointer
+                            `}>
+                                <BiHash className='h-5 w-5' />
+                            </div>
+                            <div className={`
+                                w-[40px] h-[40px] flex justify-center items-center
+                                rounded-full hover:bg-neutral-500/50
+                                transition duration-300 cursor-pointer
+                            `}>
+                                <BiHomeCircle className='h-5 w-5' />
+                            </div>
+                        </motion.div>
+                    )}
+                </AnimatePresence>
+
+                {/* <FeedLink />
+                <GameLink />
+                <AllLink />
+                <CreatePostLink /> */}
+
+            </motion.div>
     )
 }

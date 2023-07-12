@@ -1,69 +1,36 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import getGames from "../../services/rawg/getGames";
+import Feed from "../../components/index/Feed copy";
+import { cardSpacing, contentSpacing, cardWidth } from "../../services/calcColumns";
+import { useWindowWidth } from '@react-hook/window-size';
+import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+import Banner from "@/components/index/bannerCard/BConstructor";
+import Index from "@/components/index/Index";
 
 const Teste = () => {
-    const [data, setData] = useState<any[]>([]);
-    const [loading, setLoading] = useState(true);
 
-    // const getGames = async () => {
-    //     setData(await Games());
-    //     console.log(data);
-    // }
-        
-    const loadGames = async (search = '') => {
-        const response = await getGames();
-        let  results = response;
-        results = results.filter((game) => game.ratings_count > (search ? 50 : 10));
-        return results;
-    };
+    const [columnsCount, setColumnsCount] = useState(1);
+    const windowWidth = useWindowWidth();
 
-    // console.log(loadGames());
+    useEffect(() => {
+        setColumnsCount(Math.floor(windowWidth / cardWidth) || 1);
+    }, [windowWidth]);
+    useEffect(() => {
+        window.addEventListener('resize', () => {
+            setColumnsCount(Math.floor(windowWidth / cardWidth) || 1);
+        })
+    })
+    
     return (
-        <React.Fragment>
-            <div>
-                aaaaaaaa                
-            </div>
-        </React.Fragment>
+        <div className={`
+            flex flex-col items-center justify-center h-full w-full
+            gap-20
+        `}>
+            <Banner />
+            <Index />
+
+        </div>
     );
 }
 
 export default Teste;
-
-// const Index = () => {   
-//     const [data, setData] = useState<any[]>([]);
-
-//     useEffect(() => {
-//         axios.get("https://api.rawg.io/api/games?key=6b749e73010d4081b7a673763e7c93d6")
-//         .then((response) => {
-//             setData(response.data.results);
-//         });
-//     }, []);
-
-
-//     return (
-//         <div>
-//             <ul>
-//                 {data.map((item) => (
-//                     <li key={item.id}>
-//                         <h1>{item.name}</h1>
-//                     </li>
-//                 ))}
-//             </ul>
-//         </div>
-//     );
-// }
-
-// export default Index;
-
-// export default function Teste() {
-
-//     return (
-//         <main>
-//             <div>
-//                 <p>teste</p>
-//             </div>
-//         </main>
-//     );
-    
-// }

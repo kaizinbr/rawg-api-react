@@ -1,0 +1,3340 @@
+[
+    {
+        "results": [
+            {
+                "slug": "the-legend-of-zelda-breath-of-the-wild-sequel",
+                "name": "The Legend of Zelda: Tears of the Kingdom",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo Switch",
+                            "slug": "nintendo-switch"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 6,
+                            "name": "Nintendo Store",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "released": "2023-05-12",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/556/55684bfd048706f4266d331d70050b37.jpg",
+                "rating": 4.47,
+                "rating_top": 5,
+                "ratings": [
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 94,
+                        "percent": 77.05
+                    },
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 13,
+                        "percent": 10.66
+                    },
+                    {
+                        "id": 1,
+                        "title": "skip",
+                        "count": 11,
+                        "percent": 9.02
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 4,
+                        "percent": 3.28
+                    }
+                ],
+                "ratings_count": 118,
+                "reviews_text_count": 4,
+                "added": 883,
+                "added_by_status": {
+                    "yet": 82,
+                    "owned": 104,
+                    "beaten": 50,
+                    "toplay": 485,
+                    "dropped": 12,
+                    "playing": 150
+                },
+                "metacritic": 96,
+                "suggestions_count": 463,
+                "updated": "2023-07-07T22:54:09",
+                "id": 327239,
+                "score": "69.69431",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 31,
+                        "name": "Singleplayer",
+                        "slug": "singleplayer",
+                        "language": "eng",
+                        "games_count": 206544,
+                        "image_background": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg"
+                    },
+                    {
+                        "id": 24,
+                        "name": "RPG",
+                        "slug": "rpg",
+                        "language": "eng",
+                        "games_count": 17413,
+                        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+                    },
+                    {
+                        "id": 36,
+                        "name": "Open World",
+                        "slug": "open-world",
+                        "language": "eng",
+                        "games_count": 6316,
+                        "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+                    },
+                    {
+                        "id": 37,
+                        "name": "Sandbox",
+                        "slug": "sandbox",
+                        "language": "eng",
+                        "games_count": 5956,
+                        "image_background": "https://media.rawg.io/media/games/c50/c5085506fe4b5e20fc7aa5ace842c20b.jpg"
+                    },
+                    {
+                        "id": 37796,
+                        "name": "exclusive",
+                        "slug": "exclusive",
+                        "language": "eng",
+                        "games_count": 4505,
+                        "image_background": "https://media.rawg.io/media/games/725/725eb4171c8aacee030a2d050ebf9fad.jpg"
+                    },
+                    {
+                        "id": 425,
+                        "name": "Single player only",
+                        "slug": "single-player-only",
+                        "language": "eng",
+                        "games_count": 31,
+                        "image_background": "https://media.rawg.io/media/screenshots/1ac/1ac8e4433f332827a52aa43b3786d737.jpeg"
+                    },
+                    {
+                        "id": 867,
+                        "name": "zelda",
+                        "slug": "zelda",
+                        "language": "eng",
+                        "games_count": 493,
+                        "image_background": "https://media.rawg.io/media/games/087/08727beb32c364d30e8b2a1aa8595f8e.jpg"
+                    }
+                ],
+                "esrb_rating": {
+                    "id": 2,
+                    "name": "Everyone 10+",
+                    "slug": "everyone-10-plus",
+                    "name_en": "Everyone 10+",
+                    "name_ru": "С 10 лет"
+                },
+                "user_game": null,
+                "reviews_count": 122,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/556/55684bfd048706f4266d331d70050b37.jpg"
+                    },
+                    {
+                        "id": 1961492,
+                        "image": "https://media.rawg.io/media/screenshots/51f/51f7928a2630fc4bbb3dac59b8f31448.jpg"
+                    },
+                    {
+                        "id": 1961493,
+                        "image": "https://media.rawg.io/media/screenshots/104/10431d15726ed2593401cc70e2115a82.jpg"
+                    },
+                    {
+                        "id": 1961494,
+                        "image": "https://media.rawg.io/media/screenshots/c0d/c0dafd15ec182acab8f5879665eaa642.jpg"
+                    },
+                    {
+                        "id": 1961495,
+                        "image": "https://media.rawg.io/media/screenshots/725/725dbbf72f15a32f418a42d2e8ac8b25.jpg"
+                    },
+                    {
+                        "id": 1961496,
+                        "image": "https://media.rawg.io/media/screenshots/c63/c63fda6df2574a7d071f96082438e820.jpg"
+                    },
+                    {
+                        "id": 2897101,
+                        "image": "https://media.rawg.io/media/screenshots/c92/c92c2acf519b3dc613c0f0085cc34b34.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Adventure",
+                        "slug": "adventure"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Action",
+                        "slug": "action"
+                    }
+                ]
+            },
+            
+            {
+                "slug": "sea-of-stars-2",
+                "name": "Sea of Stars",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 18,
+                            "name": "PlayStation 4",
+                            "slug": "playstation4"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo Switch",
+                            "slug": "nintendo-switch"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 3,
+                            "name": "PlayStation Store",
+                            "slug": "playstation-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 6,
+                            "name": "Nintendo Store",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "released": "2023-08-28",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/1de/1de8ff69ed31d7a47d4f7770f23f20b8.jpg",
+                "rating": 0.0,
+                "rating_top": 0,
+                "ratings": [
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 2,
+                        "percent": 66.67
+                    },
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 1,
+                        "percent": 33.33
+                    }
+                ],
+                "ratings_count": 3,
+                "reviews_text_count": 0,
+                "added": 175,
+                "added_by_status": {
+                    "yet": 23,
+                    "owned": 18,
+                    "toplay": 133,
+                    "dropped": 1
+                },
+                "metacritic": null,
+                "suggestions_count": 432,
+                "updated": "2023-07-08T12:48:53",
+                "id": 427490,
+                "score": "28.041162",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 31,
+                        "name": "Singleplayer",
+                        "slug": "singleplayer",
+                        "language": "eng",
+                        "games_count": 206544,
+                        "image_background": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg"
+                    },
+                    {
+                        "id": 42392,
+                        "name": "Приключение",
+                        "slug": "prikliuchenie",
+                        "language": "rus",
+                        "games_count": 30382,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    {
+                        "id": 42398,
+                        "name": "Инди",
+                        "slug": "indi-2",
+                        "language": "rus",
+                        "games_count": 46233,
+                        "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+                    },
+                    {
+                        "id": 40836,
+                        "name": "Full controller support",
+                        "slug": "full-controller-support",
+                        "language": "eng",
+                        "games_count": 14476,
+                        "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+                    },
+                    {
+                        "id": 42394,
+                        "name": "Глубокий сюжет",
+                        "slug": "glubokii-siuzhet",
+                        "language": "rus",
+                        "games_count": 9153,
+                        "image_background": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+                    },
+                    {
+                        "id": 24,
+                        "name": "RPG",
+                        "slug": "rpg",
+                        "language": "eng",
+                        "games_count": 17413,
+                        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+                    },
+                    {
+                        "id": 42412,
+                        "name": "Ролевая игра",
+                        "slug": "rolevaia-igra",
+                        "language": "rus",
+                        "games_count": 13830,
+                        "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+                    },
+                    {
+                        "id": 118,
+                        "name": "Story Rich",
+                        "slug": "story-rich",
+                        "language": "eng",
+                        "games_count": 18334,
+                        "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
+                    },
+                    {
+                        "id": 42415,
+                        "name": "Пиксельная графика",
+                        "slug": "pikselnaia-grafika",
+                        "language": "rus",
+                        "games_count": 9128,
+                        "image_background": "https://media.rawg.io/media/games/f62/f62eb0901c7017776e0a5c6a94f979d5.jpg"
+                    },
+                    {
+                        "id": 122,
+                        "name": "Pixel Graphics",
+                        "slug": "pixel-graphics",
+                        "language": "eng",
+                        "games_count": 90313,
+                        "image_background": "https://media.rawg.io/media/games/bbf/bbf8d74ab64440ad76294cff2f4d9cfa.jpg"
+                    },
+                    {
+                        "id": 42568,
+                        "name": "Пошаговые сражения",
+                        "slug": "poshagovye-srazheniia",
+                        "language": "rus",
+                        "games_count": 2134,
+                        "image_background": "https://media.rawg.io/media/games/e23/e2345c839b323a94b6811705fda5af73.jpg"
+                    },
+                    {
+                        "id": 175,
+                        "name": "Turn-Based Combat",
+                        "slug": "turn-based-combat",
+                        "language": "eng",
+                        "games_count": 4144,
+                        "image_background": "https://media.rawg.io/media/games/570/5705f063e549547b22db00b643619388.jpg"
+                    }
+                ],
+                "esrb_rating": {
+                    "id": 3,
+                    "name": "Teen",
+                    "slug": "teen",
+                    "name_en": "Teen",
+                    "name_ru": "С 13 лет"
+                },
+                "user_game": null,
+                "reviews_count": 3,
+                "community_rating": 0,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/1de/1de8ff69ed31d7a47d4f7770f23f20b8.jpg"
+                    },
+                    {
+                        "id": 2333717,
+                        "image": "https://media.rawg.io/media/screenshots/db6/db625f085ce03f211ea27cf7b7b24b5b.jpg"
+                    },
+                    {
+                        "id": 2333718,
+                        "image": "https://media.rawg.io/media/screenshots/05f/05f533b6bdeaaf9479b0a21971811450.jpg"
+                    },
+                    {
+                        "id": 2333719,
+                        "image": "https://media.rawg.io/media/screenshots/76f/76f6f56823ddf31b51e657c543926ccb.jpg"
+                    },
+                    {
+                        "id": 2333720,
+                        "image": "https://media.rawg.io/media/screenshots/c7b/c7bce81364c819f60151bf7876a871d8.jpg"
+                    },
+                    {
+                        "id": 2333721,
+                        "image": "https://media.rawg.io/media/screenshots/b10/b108330146c4324be6fbdf4a26a9bfc9.jpg"
+                    },
+                    {
+                        "id": 2333722,
+                        "image": "https://media.rawg.io/media/screenshots/d33/d332c693ac6cf8cbdf4e12122b3aa8bb.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 5,
+                        "name": "RPG",
+                        "slug": "role-playing-games-rpg"
+                    }
+                ]
+            },
+            {
+                "slug": "hogwarts-legacy",
+                "name": "Hogwarts Legacy",
+                "playtime": 23,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "Xbox One",
+                            "slug": "xbox-one"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 18,
+                            "name": "PlayStation 4",
+                            "slug": "playstation4"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 186,
+                            "name": "Xbox Series S/X",
+                            "slug": "xbox-series-x"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo Switch",
+                            "slug": "nintendo-switch"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 3,
+                            "name": "PlayStation Store",
+                            "slug": "playstation-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 2,
+                            "name": "Xbox Store",
+                            "slug": "xbox-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 11,
+                            "name": "Epic Games",
+                            "slug": "epic-games"
+                        }
+                    }
+                ],
+                "released": "2023-02-10",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg",
+                "rating": 3.99,
+                "rating_top": 4,
+                "ratings": [
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 162,
+                        "percent": 41.01
+                    },
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 142,
+                        "percent": 35.95
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 64,
+                        "percent": 16.2
+                    },
+                    {
+                        "id": 1,
+                        "title": "skip",
+                        "count": 27,
+                        "percent": 6.84
+                    }
+                ],
+                "ratings_count": 377,
+                "reviews_text_count": 11,
+                "added": 1791,
+                "added_by_status": {
+                    "yet": 155,
+                    "owned": 449,
+                    "beaten": 311,
+                    "toplay": 658,
+                    "dropped": 83,
+                    "playing": 135
+                },
+                "metacritic": 85,
+                "suggestions_count": 885,
+                "updated": "2023-07-05T19:51:54",
+                "id": 906547,
+                "score": "91.901665",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 31,
+                        "name": "Singleplayer",
+                        "slug": "singleplayer",
+                        "language": "eng",
+                        "games_count": 206474,
+                        "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+                    },
+                    {
+                        "id": 42396,
+                        "name": "Для одного игрока",
+                        "slug": "dlia-odnogo-igroka",
+                        "language": "rus",
+                        "games_count": 35115,
+                        "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+                    },
+                    {
+                        "id": 42417,
+                        "name": "Экшен",
+                        "slug": "ekshen",
+                        "language": "rus",
+                        "games_count": 32395,
+                        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+                    },
+                    {
+                        "id": 42392,
+                        "name": "Приключение",
+                        "slug": "prikliuchenie",
+                        "language": "rus",
+                        "games_count": 30351,
+                        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+                    },
+                    {
+                        "id": 13,
+                        "name": "Atmospheric",
+                        "slug": "atmospheric",
+                        "language": "eng",
+                        "games_count": 29619,
+                        "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+                    },
+                    {
+                        "id": 40849,
+                        "name": "Steam Cloud",
+                        "slug": "steam-cloud",
+                        "language": "eng",
+                        "games_count": 14333,
+                        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+                    },
+                    {
+                        "id": 42401,
+                        "name": "Отличный саундтрек",
+                        "slug": "otlichnyi-saundtrek",
+                        "language": "rus",
+                        "games_count": 4461,
+                        "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
+                    },
+                    {
+                        "id": 42,
+                        "name": "Great Soundtrack",
+                        "slug": "great-soundtrack",
+                        "language": "eng",
+                        "games_count": 3239,
+                        "image_background": "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg"
+                    },
+                    {
+                        "id": 42394,
+                        "name": "Глубокий сюжет",
+                        "slug": "glubokii-siuzhet",
+                        "language": "rus",
+                        "games_count": 9141,
+                        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                    },
+                    {
+                        "id": 24,
+                        "name": "RPG",
+                        "slug": "rpg",
+                        "language": "eng",
+                        "games_count": 17400,
+                        "image_background": "https://media.rawg.io/media/games/6fc/6fcf4cd3b17c288821388e6085bb0fc9.jpg"
+                    },
+                    {
+                        "id": 42412,
+                        "name": "Ролевая игра",
+                        "slug": "rolevaia-igra",
+                        "language": "rus",
+                        "games_count": 13817,
+                        "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+                    },
+                    {
+                        "id": 118,
+                        "name": "Story Rich",
+                        "slug": "story-rich",
+                        "language": "eng",
+                        "games_count": 18321,
+                        "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+                    },
+                    {
+                        "id": 42442,
+                        "name": "Открытый мир",
+                        "slug": "otkrytyi-mir",
+                        "language": "rus",
+                        "games_count": 4491,
+                        "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                    },
+                    {
+                        "id": 36,
+                        "name": "Open World",
+                        "slug": "open-world",
+                        "language": "eng",
+                        "games_count": 6313,
+                        "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+                    },
+                    {
+                        "id": 149,
+                        "name": "Third Person",
+                        "slug": "third-person",
+                        "language": "eng",
+                        "games_count": 9492,
+                        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+                    },
+                    {
+                        "id": 42441,
+                        "name": "От третьего лица",
+                        "slug": "ot-tretego-litsa",
+                        "language": "rus",
+                        "games_count": 5004,
+                        "image_background": "https://media.rawg.io/media/games/5c0/5c0dd63002cb23f804aab327d40ef119.jpg"
+                    },
+                    {
+                        "id": 42465,
+                        "name": "Головоломка",
+                        "slug": "golovolomka",
+                        "language": "rus",
+                        "games_count": 11668,
+                        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+                    },
+                    {
+                        "id": 42480,
+                        "name": "Фэнтези",
+                        "slug": "fentezi",
+                        "language": "rus",
+                        "games_count": 8352,
+                        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+                    },
+                    {
+                        "id": 64,
+                        "name": "Fantasy",
+                        "slug": "fantasy",
+                        "language": "eng",
+                        "games_count": 24610,
+                        "image_background": "https://media.rawg.io/media/games/aa3/aa36ba4b486a03ddfaef274fb4f5afd4.jpg"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Exploration",
+                        "slug": "exploration",
+                        "language": "eng",
+                        "games_count": 19504,
+                        "image_background": "https://media.rawg.io/media/games/559/559bc0768f656ad0c63c54b80a82d680.jpg"
+                    },
+                    {
+                        "id": 97,
+                        "name": "Action RPG",
+                        "slug": "action-rpg",
+                        "language": "eng",
+                        "games_count": 5756,
+                        "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+                    },
+                    {
+                        "id": 42489,
+                        "name": "Ролевой экшен",
+                        "slug": "rolevoi-ekshen",
+                        "language": "rus",
+                        "games_count": 2734,
+                        "image_background": "https://media.rawg.io/media/games/995/9951d9d55323d08967640f7b9ab3e342.jpg"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Action-Adventure",
+                        "slug": "action-adventure",
+                        "language": "eng",
+                        "games_count": 13602,
+                        "image_background": "https://media.rawg.io/media/games/275/2759da6fcaa8f81f21800926168c85f6.jpg"
+                    },
+                    {
+                        "id": 42477,
+                        "name": "Мрачная",
+                        "slug": "mrachnaia",
+                        "language": "rus",
+                        "games_count": 3657,
+                        "image_background": "https://media.rawg.io/media/games/7f6/7f6cd70ba2ad57053b4847c13569f2d8.jpg"
+                    },
+                    {
+                        "id": 41,
+                        "name": "Dark",
+                        "slug": "dark",
+                        "language": "eng",
+                        "games_count": 14164,
+                        "image_background": "https://media.rawg.io/media/games/744/744adc36e6573dd67a0cb0e373738d19.jpg"
+                    },
+                    {
+                        "id": 42530,
+                        "name": "Кастомизация персонажа",
+                        "slug": "kastomizatsiia-personazha",
+                        "language": "rus",
+                        "games_count": 2770,
+                        "image_background": "https://media.rawg.io/media/games/b72/b7233d5d5b1e75e86bb860ccc7aeca85.jpg"
+                    },
+                    {
+                        "id": 42390,
+                        "name": "Решения с последствиями",
+                        "slug": "resheniia-s-posledstviiami",
+                        "language": "rus",
+                        "games_count": 3855,
+                        "image_background": "https://media.rawg.io/media/games/a28/a289e23b4d4d84f26ab59125e3be4483.jpg"
+                    },
+                    {
+                        "id": 107,
+                        "name": "Family Friendly",
+                        "slug": "family-friendly",
+                        "language": "eng",
+                        "games_count": 5332,
+                        "image_background": "https://media.rawg.io/media/games/786/7863e587bac630de82fca50d799236a9.jpg"
+                    },
+                    {
+                        "id": 121,
+                        "name": "Character Customization",
+                        "slug": "character-customization",
+                        "language": "eng",
+                        "games_count": 3551,
+                        "image_background": "https://media.rawg.io/media/games/5a4/5a4e70bb8a862829dbaa398aa5f66afc.jpg"
+                    },
+                    {
+                        "id": 145,
+                        "name": "Choices Matter",
+                        "slug": "choices-matter",
+                        "language": "eng",
+                        "games_count": 3646,
+                        "image_background": "https://media.rawg.io/media/games/2e1/2e187b31e5cee21c110bd16798d75fab.jpg"
+                    },
+                    {
+                        "id": 42490,
+                        "name": "Приключенческий экшен",
+                        "slug": "prikliuchencheskii-ekshen",
+                        "language": "rus",
+                        "games_count": 5984,
+                        "image_background": "https://media.rawg.io/media/games/275/2759da6fcaa8f81f21800926168c85f6.jpg"
+                    },
+                    {
+                        "id": 82,
+                        "name": "Magic",
+                        "slug": "magic",
+                        "language": "eng",
+                        "games_count": 8142,
+                        "image_background": "https://media.rawg.io/media/games/c7a/c7a71a0531a9518236d99d0d60abe447.jpg"
+                    },
+                    {
+                        "id": 1465,
+                        "name": "combat",
+                        "slug": "combat",
+                        "language": "eng",
+                        "games_count": 9515,
+                        "image_background": "https://media.rawg.io/media/games/568/5689c58278e807c1574ceefb8dec026b.jpg"
+                    },
+                    {
+                        "id": 42478,
+                        "name": "Магия",
+                        "slug": "magiia",
+                        "language": "rus",
+                        "games_count": 2784,
+                        "image_background": "https://media.rawg.io/media/games/596/596a48ef3b62b63b4cc59633e28be903.jpg"
+                    },
+                    {
+                        "id": 406,
+                        "name": "Story",
+                        "slug": "story",
+                        "language": "eng",
+                        "games_count": 11226,
+                        "image_background": "https://media.rawg.io/media/games/be5/be51faf9bec778b4ea1b06e9b084792c.jpg"
+                    },
+                    {
+                        "id": 413,
+                        "name": "online",
+                        "slug": "online",
+                        "language": "eng",
+                        "games_count": 6520,
+                        "image_background": "https://media.rawg.io/media/games/174/1743b3dd185bda4a7be349347d4064df.jpg"
+                    },
+                    {
+                        "id": 981,
+                        "name": "battle",
+                        "slug": "battle",
+                        "language": "eng",
+                        "games_count": 10536,
+                        "image_background": "https://media.rawg.io/media/games/1eb/1ebef06e55f756974654c35b9aedb127.jpg"
+                    },
+                    {
+                        "id": 808,
+                        "name": "character",
+                        "slug": "character",
+                        "language": "eng",
+                        "games_count": 8772,
+                        "image_background": "https://media.rawg.io/media/games/202/2023cb28ef354720a2ca4652727687d0.jpg"
+                    },
+                    {
+                        "id": 58132,
+                        "name": "Атмосферная",
+                        "slug": "atmosfernaia",
+                        "language": "rus",
+                        "games_count": 5251,
+                        "image_background": "https://media.rawg.io/media/games/525/525ddc0a9f22c944af01f074e8983ffe.jpg"
+                    },
+                    {
+                        "id": 744,
+                        "name": "friends",
+                        "slug": "friends",
+                        "language": "eng",
+                        "games_count": 15075,
+                        "image_background": "https://media.rawg.io/media/games/415/41563ce6cb061a210160687a4e5d39f6.jpg"
+                    },
+                    {
+                        "id": 66533,
+                        "name": "Исследования",
+                        "slug": "issledovaniia",
+                        "language": "rus",
+                        "games_count": 4824,
+                        "image_background": "https://media.rawg.io/media/games/a3e/a3ea71c18e81d54ebaf982dadb9a8738.jpg"
+                    },
+                    {
+                        "id": 58127,
+                        "name": "Бой",
+                        "slug": "boi-2",
+                        "language": "rus",
+                        "games_count": 4439,
+                        "image_background": "https://media.rawg.io/media/screenshots/6ab/6abb5456a795b7713919db7568a2fd96.jpg"
+                    },
+                    {
+                        "id": 2326,
+                        "name": "explore",
+                        "slug": "explore",
+                        "language": "eng",
+                        "games_count": 3254,
+                        "image_background": "https://media.rawg.io/media/screenshots/6e1/6e13d9acb4e7a6e184f24892f52c4544.jpg"
+                    },
+                    {
+                        "id": 820,
+                        "name": "secrets",
+                        "slug": "secrets",
+                        "language": "eng",
+                        "games_count": 3278,
+                        "image_background": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg"
+                    },
+                    {
+                        "id": 2232,
+                        "name": "journey",
+                        "slug": "journey",
+                        "language": "eng",
+                        "games_count": 1925,
+                        "image_background": "https://media.rawg.io/media/screenshots/70d/70d59d4c32d3c7f925bf5e7502f5bfe9.jpg"
+                    },
+                    {
+                        "id": 712,
+                        "name": "school",
+                        "slug": "school",
+                        "language": "eng",
+                        "games_count": 4555,
+                        "image_background": "https://media.rawg.io/media/screenshots/238/238e604c624909062ab66ebbb37b510d.jpg"
+                    },
+                    {
+                        "id": 992,
+                        "name": "student",
+                        "slug": "student",
+                        "language": "eng",
+                        "games_count": 1515,
+                        "image_background": "https://media.rawg.io/media/screenshots/04f/04f147a13d2c62f11183dd831a9daf5e_LLtHcj6.jpg"
+                    },
+                    {
+                        "id": 2006,
+                        "name": "castle",
+                        "slug": "castle",
+                        "language": "eng",
+                        "games_count": 1516,
+                        "image_background": "https://media.rawg.io/media/games/9c6/9c699013b35ac2a84b5276c1c32b0678.jpg"
+                    },
+                    {
+                        "id": 5506,
+                        "name": "wizards",
+                        "slug": "wizards",
+                        "language": "eng",
+                        "games_count": 1049,
+                        "image_background": "https://media.rawg.io/media/screenshots/b30/b30d22ac4cea79ea24c4ca1ce5a052fd.jpg"
+                    },
+                    {
+                        "id": 930,
+                        "name": "witch",
+                        "slug": "witch",
+                        "language": "eng",
+                        "games_count": 1052,
+                        "image_background": "https://media.rawg.io/media/screenshots/bf5/bf55615c0a81173033c7048ea6f62dd6.jpg"
+                    },
+                    {
+                        "id": 71763,
+                        "name": "Giocatore singolo",
+                        "slug": "giocatore-singolo-2",
+                        "language": "eng",
+                        "games_count": 3,
+                        "image_background": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg"
+                    },
+                    {
+                        "id": 71769,
+                        "name": "Supporto completo per i controller",
+                        "slug": "supporto-completo-per-i-controller",
+                        "language": "eng",
+                        "games_count": 2,
+                        "image_background": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg"
+                    },
+                    {
+                        "id": 71768,
+                        "name": "Achievement di Steam",
+                        "slug": "achievement-di-steam",
+                        "language": "eng",
+                        "games_count": 2,
+                        "image_background": "https://media.rawg.io/media/games/326/326cbbdc3bc2da0b10cc3f7edd57161a.jpg"
+                    },
+                    {
+                        "id": 6752,
+                        "name": "potions",
+                        "slug": "potions",
+                        "language": "eng",
+                        "games_count": 153,
+                        "image_background": "https://media.rawg.io/media/screenshots/620/6207056a250c6748c06acebea96cddb4.jpg"
+                    },
+                    {
+                        "id": 88361,
+                        "name": "Дети",
+                        "slug": "deti",
+                        "language": "eng",
+                        "games_count": 94,
+                        "image_background": "https://media.rawg.io/media/screenshots/41e/41e0840035e9ae9ddb2f4692eab7980f.jpg"
+                    },
+                    {
+                        "id": 16105,
+                        "name": "character-creation",
+                        "slug": "character-creation",
+                        "language": "eng",
+                        "games_count": 10,
+                        "image_background": "https://media.rawg.io/media/screenshots/926/926ef20a40f1024c4cc5042fb029b00a.jpg"
+                    },
+                    {
+                        "id": 88999,
+                        "name": "Acquisti dall'applicazione",
+                        "slug": "acquisti-dallapplicazione",
+                        "language": "eng",
+                        "games_count": 1,
+                        "image_background": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg"
+                    },
+                    {
+                        "id": 38557,
+                        "name": "character-generator",
+                        "slug": "character-generator",
+                        "language": "eng",
+                        "games_count": 4,
+                        "image_background": "https://media.rawg.io/media/screenshots/30b/30bbf804370331c27fa5f8ef4b5f4657.jpg"
+                    }
+                ],
+                "esrb_rating": {
+                    "id": 3,
+                    "name": "Teen",
+                    "slug": "teen",
+                    "name_en": "Teen",
+                    "name_ru": "С 13 лет"
+                },
+                "user_game": null,
+                "reviews_count": 395,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg"
+                    },
+                    {
+                        "id": 3602591,
+                        "image": "https://media.rawg.io/media/screenshots/723/7230cc1be966c19d2470a19d277b31e9.jpg"
+                    },
+                    {
+                        "id": 3602592,
+                        "image": "https://media.rawg.io/media/screenshots/8d4/8d43231c67e82914891ac81c4a413d12.jpg"
+                    },
+                    {
+                        "id": 3602593,
+                        "image": "https://media.rawg.io/media/screenshots/9c4/9c48270e9f6b1cdc6e2fa92c0f7a1da8.jpg"
+                    },
+                    {
+                        "id": 3602594,
+                        "image": "https://media.rawg.io/media/screenshots/057/057e7fffd4798fdb336e6aaca40204ba.jpg"
+                    },
+                    {
+                        "id": 3602595,
+                        "image": "https://media.rawg.io/media/screenshots/f35/f35c6bcc541808298288ba49e50c37d5.jpg"
+                    },
+                    {
+                        "id": 2534103,
+                        "image": "https://media.rawg.io/media/screenshots/fc6/fc6f976e1dd7225e4818b9f553ed23c0.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 3,
+                            "name": "Xbox",
+                            "slug": "xbox"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Action",
+                        "slug": "action"
+                    },
+                    {
+                        "id": 5,
+                        "name": "RPG",
+                        "slug": "role-playing-games-rpg"
+                    }
+                ]
+            },
+            {
+                "slug": "oxenfree-ii-lost-signals",
+                "name": "Oxenfree II: Lost Signals",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 18,
+                            "name": "PlayStation 4",
+                            "slug": "playstation4"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo Switch",
+                            "slug": "nintendo-switch"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 5,
+                            "name": "macOS",
+                            "slug": "macos"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 6,
+                            "name": "Nintendo Store",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "released": "2023-12-31",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/55e/55e23d1452e7f7f0295c4fe2a4d298b5.jpg",
+                "rating": 3.57,
+                "rating_top": 5,
+                "ratings": [
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 4,
+                        "percent": 57.14
+                    },
+                    {
+                        "id": 1,
+                        "title": "skip",
+                        "count": 2,
+                        "percent": 28.57
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 1,
+                        "percent": 14.29
+                    }
+                ],
+                "ratings_count": 7,
+                "reviews_text_count": 0,
+                "added": 264,
+                "added_by_status": {
+                    "yet": 35,
+                    "owned": 33,
+                    "toplay": 194,
+                    "playing": 2
+                },
+                "metacritic": null,
+                "suggestions_count": 174,
+                "updated": "2023-03-16T05:41:21",
+                "id": 586042,
+                "score": "33.856773",
+                "clip": null,
+                "tags": [],
+                "esrb_rating": null,
+                "user_game": null,
+                "reviews_count": 7,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/55e/55e23d1452e7f7f0295c4fe2a4d298b5.jpg"
+                    },
+                    {
+                        "id": 2795912,
+                        "image": "https://media.rawg.io/media/screenshots/cda/cdae429e5a584da120c31a04cd36402d.jpg"
+                    },
+                    {
+                        "id": 2795913,
+                        "image": "https://media.rawg.io/media/screenshots/72b/72b86c19db5aef75ec15ef779c3fe31f.jpg"
+                    },
+                    {
+                        "id": 2795914,
+                        "image": "https://media.rawg.io/media/screenshots/c5c/c5c1bcef5e77520940398c0183f52472.jpg"
+                    },
+                    {
+                        "id": 2795915,
+                        "image": "https://media.rawg.io/media/screenshots/4ab/4abc61d8e05ccd9b260bf028e5415306.jpg"
+                    },
+                    {
+                        "id": 2795916,
+                        "image": "https://media.rawg.io/media/screenshots/a84/a846167668a4ad3eb70def090e82113a.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 5,
+                            "name": "Apple Macintosh",
+                            "slug": "mac"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 51,
+                        "name": "Indie",
+                        "slug": "indie"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Adventure",
+                        "slug": "adventure"
+                    }
+                ]
+            },
+            {
+                "slug": "league-of-legends",
+                "name": "League of Legends",
+                "playtime": 116,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 5,
+                            "name": "macOS",
+                            "slug": "macos"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 11,
+                            "name": "Epic Games",
+                            "slug": "epic-games"
+                        }
+                    }
+                ],
+                "released": "2009-10-27",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/78b/78bc81e247fc7e77af700cbd632a9297.jpg",
+                "rating": 3.63,
+                "rating_top": 4,
+                "ratings": [
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 238,
+                        "percent": 42.81
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 131,
+                        "percent": 23.56
+                    },
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 122,
+                        "percent": 21.94
+                    },
+                    {
+                        "id": 1,
+                        "title": "skip",
+                        "count": 65,
+                        "percent": 11.69
+                    }
+                ],
+                "ratings_count": 543,
+                "reviews_text_count": 11,
+                "added": 1032,
+                "added_by_status": {
+                    "yet": 18,
+                    "owned": 256,
+                    "beaten": 158,
+                    "toplay": 16,
+                    "dropped": 298,
+                    "playing": 286
+                },
+                "metacritic": 78,
+                "suggestions_count": 489,
+                "updated": "2023-07-06T21:11:48",
+                "id": 23598,
+                "score": "69.03578",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 7,
+                        "name": "Multiplayer",
+                        "slug": "multiplayer",
+                        "language": "eng",
+                        "games_count": 35100,
+                        "image_background": "https://media.rawg.io/media/games/b72/b7233d5d5b1e75e86bb860ccc7aeca85.jpg"
+                    },
+                    {
+                        "id": 397,
+                        "name": "Online multiplayer",
+                        "slug": "online-multiplayer",
+                        "language": "eng",
+                        "games_count": 3805,
+                        "image_background": "https://media.rawg.io/media/games/192/1921ec949024a5fbd1e1c7008f54b5af.jpg"
+                    },
+                    {
+                        "id": 169,
+                        "name": "MOBA",
+                        "slug": "moba",
+                        "language": "eng",
+                        "games_count": 532,
+                        "image_background": "https://media.rawg.io/media/screenshots/45c/45cf373b371c1912613ff799a16e4fa2.jpg"
+                    }
+                ],
+                "esrb_rating": {
+                    "id": 3,
+                    "name": "Teen",
+                    "slug": "teen",
+                    "name_en": "Teen",
+                    "name_ru": "С 13 лет"
+                },
+                "user_game": null,
+                "reviews_count": 556,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/78b/78bc81e247fc7e77af700cbd632a9297.jpg"
+                    },
+                    {
+                        "id": 505293,
+                        "image": "https://media.rawg.io/media/screenshots/3f2/3f2e6056b40accc27214f50f9630a6a8.jpg"
+                    },
+                    {
+                        "id": 505294,
+                        "image": "https://media.rawg.io/media/screenshots/b5e/b5e11cb883f89d29b1c637b630cecb29.jpg"
+                    },
+                    {
+                        "id": 505295,
+                        "image": "https://media.rawg.io/media/screenshots/343/34353d64a0d5b72293fd9f8b24721565.jpg"
+                    },
+                    {
+                        "id": 505296,
+                        "image": "https://media.rawg.io/media/screenshots/16d/16d65c2168d82046b2de98ee91fee393.jpg"
+                    },
+                    {
+                        "id": 505297,
+                        "image": "https://media.rawg.io/media/screenshots/8ee/8ee50c6e32ecd48d4b3358bcbfa4a7f7.jpg"
+                    },
+                    {
+                        "id": 505298,
+                        "image": "https://media.rawg.io/media/screenshots/cc4/cc445ee4f57a8eff340b402e3f1a527a.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 5,
+                            "name": "Apple Macintosh",
+                            "slug": "mac"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 10,
+                        "name": "Strategy",
+                        "slug": "strategy"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Action",
+                        "slug": "action"
+                    },
+                    {
+                        "id": 5,
+                        "name": "RPG",
+                        "slug": "role-playing-games-rpg"
+                    }
+                ]
+            },
+            {
+                "slug": "final-fantasy-xvi",
+                "name": "Final Fantasy XVI",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 3,
+                            "name": "PlayStation Store",
+                            "slug": "playstation-store"
+                        }
+                    }
+                ],
+                "released": "2023-06-22",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/22e/22e68bb62b3013283972cecf98ed51dc.jpg",
+                "rating": 4.34,
+                "rating_top": 5,
+                "ratings": [
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 16,
+                        "percent": 55.17
+                    },
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 9,
+                        "percent": 31.03
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 3,
+                        "percent": 10.34
+                    },
+                    {
+                        "id": 1,
+                        "title": "skip",
+                        "count": 1,
+                        "percent": 3.45
+                    }
+                ],
+                "ratings_count": 28,
+                "reviews_text_count": 1,
+                "added": 399,
+                "added_by_status": {
+                    "yet": 43,
+                    "owned": 44,
+                    "beaten": 13,
+                    "toplay": 270,
+                    "dropped": 3,
+                    "playing": 26
+                },
+                "metacritic": 88,
+                "suggestions_count": 542,
+                "updated": "2023-07-07T21:52:15",
+                "id": 494382,
+                "score": "61.45794",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 34,
+                        "name": "Violent",
+                        "slug": "violent",
+                        "language": "eng",
+                        "games_count": 5927,
+                        "image_background": "https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg"
+                    },
+                    {
+                        "id": 37796,
+                        "name": "exclusive",
+                        "slug": "exclusive",
+                        "language": "eng",
+                        "games_count": 4505,
+                        "image_background": "https://media.rawg.io/media/games/725/725eb4171c8aacee030a2d050ebf9fad.jpg"
+                    },
+                    {
+                        "id": 478,
+                        "name": "3rd-Person Perspective",
+                        "slug": "3rd-person-perspective",
+                        "language": "eng",
+                        "games_count": 85,
+                        "image_background": "https://media.rawg.io/media/games/364/3642d850efb217c58feab80b8affaa89.jpg"
+                    }
+                ],
+                "esrb_rating": {
+                    "id": 4,
+                    "name": "Mature",
+                    "slug": "mature",
+                    "name_en": "Mature",
+                    "name_ru": "С 17 лет"
+                },
+                "user_game": null,
+                "reviews_count": 29,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/22e/22e68bb62b3013283972cecf98ed51dc.jpg"
+                    },
+                    {
+                        "id": 3402719,
+                        "image": "https://media.rawg.io/media/screenshots/bc2/bc255e09533797521b2ff1e364113a0b.jpg"
+                    },
+                    {
+                        "id": 3402720,
+                        "image": "https://media.rawg.io/media/screenshots/af2/af2426fc46c870b4fe3dfb0242f2f6cc_SDr2Q4j.jpg"
+                    },
+                    {
+                        "id": 3402721,
+                        "image": "https://media.rawg.io/media/screenshots/20c/20caffc877526070d84dda7b79e6340c.jpg"
+                    },
+                    {
+                        "id": 3402722,
+                        "image": "https://media.rawg.io/media/screenshots/934/93425eb39f7347f229a8ef4a6bc4cefc.jpg"
+                    },
+                    {
+                        "id": 3402724,
+                        "image": "https://media.rawg.io/media/screenshots/ae8/ae88639668c1124b2b75eed1e8c44209.jpg"
+                    },
+                    {
+                        "id": 3402725,
+                        "image": "https://media.rawg.io/media/screenshots/5bb/5bbe932d2fa06cc12825b006361bd4e5.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Action",
+                        "slug": "action"
+                    },
+                    {
+                        "id": 5,
+                        "name": "RPG",
+                        "slug": "role-playing-games-rpg"
+                    }
+                ]
+            },
+            {
+                "slug": "layers-of-fears",
+                "name": "Layers of Fears",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 186,
+                            "name": "Xbox Series S/X",
+                            "slug": "xbox-series-x"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 3,
+                            "name": "PlayStation Store",
+                            "slug": "playstation-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 2,
+                            "name": "Xbox Store",
+                            "slug": "xbox-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 4,
+                            "name": "App Store",
+                            "slug": "apple-appstore"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 5,
+                            "name": "GOG",
+                            "slug": "gog"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 11,
+                            "name": "Epic Games",
+                            "slug": "epic-games"
+                        }
+                    }
+                ],
+                "released": "2023-06-15",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/c80/c80e579eaa52c593652f3583f00d3d7d.jpg",
+                "rating": 3.69,
+                "rating_top": 4,
+                "ratings": [
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 7,
+                        "percent": 53.85
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 5,
+                        "percent": 38.46
+                    },
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 1,
+                        "percent": 7.69
+                    }
+                ],
+                "ratings_count": 13,
+                "reviews_text_count": 0,
+                "added": 55,
+                "added_by_status": {
+                    "yet": 4,
+                    "owned": 9,
+                    "beaten": 10,
+                    "toplay": 25,
+                    "dropped": 4,
+                    "playing": 3
+                },
+                "metacritic": 72,
+                "suggestions_count": 243,
+                "updated": "2023-07-07T16:26:20",
+                "id": 799274,
+                "score": "72.650665",
+                "clip": null,
+                "tags": [],
+                "esrb_rating": {
+                    "id": 4,
+                    "name": "Mature",
+                    "slug": "mature",
+                    "name_en": "Mature",
+                    "name_ru": "С 17 лет"
+                },
+                "user_game": null,
+                "reviews_count": 13,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/c80/c80e579eaa52c593652f3583f00d3d7d.jpg"
+                    },
+                    {
+                        "id": 3412575,
+                        "image": "https://media.rawg.io/media/screenshots/3c8/3c8581bacf14689a0249b13a783e0854.jpg"
+                    },
+                    {
+                        "id": 3412576,
+                        "image": "https://media.rawg.io/media/screenshots/adf/adf06cc1788f8c9ad0071454e01a6459.jpg"
+                    },
+                    {
+                        "id": 3412577,
+                        "image": "https://media.rawg.io/media/screenshots/789/7896dd7d9ae4f685d286999e7f542881.jpg"
+                    },
+                    {
+                        "id": 3412578,
+                        "image": "https://media.rawg.io/media/screenshots/d66/d66bd414330b454b387ea425e07c44ac.jpg"
+                    },
+                    {
+                        "id": 3412579,
+                        "image": "https://media.rawg.io/media/screenshots/edc/edc70e206244b5ea4327c98fd09392df.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 3,
+                            "name": "Xbox",
+                            "slug": "xbox"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Adventure",
+                        "slug": "adventure"
+                    }
+                ]
+            },
+            {
+                "slug": "the-bookwalker",
+                "name": "The Bookwalker: Thief of Tales",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "Xbox One",
+                            "slug": "xbox-one"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 18,
+                            "name": "PlayStation 4",
+                            "slug": "playstation4"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 186,
+                            "name": "Xbox Series S/X",
+                            "slug": "xbox-series-x"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 5,
+                            "name": "GOG",
+                            "slug": "gog"
+                        }
+                    }
+                ],
+                "released": "2023-06-21",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/4ae/4ae187d7ab7227c74f4da6f079cac8e3.jpg",
+                "rating": 4.14,
+                "rating_top": 4,
+                "ratings": [
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 6,
+                        "percent": 85.71
+                    },
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 1,
+                        "percent": 14.29
+                    }
+                ],
+                "ratings_count": 7,
+                "reviews_text_count": 0,
+                "added": 52,
+                "added_by_status": {
+                    "yet": 13,
+                    "owned": 5,
+                    "beaten": 6,
+                    "toplay": 20,
+                    "dropped": 2,
+                    "playing": 6
+                },
+                "metacritic": null,
+                "suggestions_count": 400,
+                "updated": "2023-07-03T22:00:45",
+                "id": 962108,
+                "score": "53.150795",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 31,
+                        "name": "Singleplayer",
+                        "slug": "singleplayer",
+                        "language": "eng",
+                        "games_count": 206543,
+                        "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+                    },
+                    {
+                        "id": 42396,
+                        "name": "Для одного игрока",
+                        "slug": "dlia-odnogo-igroka",
+                        "language": "rus",
+                        "games_count": 35171,
+                        "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+                    },
+                    {
+                        "id": 42392,
+                        "name": "Приключение",
+                        "slug": "prikliuchenie",
+                        "language": "rus",
+                        "games_count": 30382,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    {
+                        "id": 40847,
+                        "name": "Steam Achievements",
+                        "slug": "steam-achievements",
+                        "language": "eng",
+                        "games_count": 30840,
+                        "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+                    },
+                    {
+                        "id": 40836,
+                        "name": "Full controller support",
+                        "slug": "full-controller-support",
+                        "language": "eng",
+                        "games_count": 14476,
+                        "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+                    },
+                    {
+                        "id": 13,
+                        "name": "Atmospheric",
+                        "slug": "atmospheric",
+                        "language": "eng",
+                        "games_count": 29635,
+                        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+                    },
+                    {
+                        "id": 40849,
+                        "name": "Steam Cloud",
+                        "slug": "steam-cloud",
+                        "language": "eng",
+                        "games_count": 14345,
+                        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+                    },
+                    {
+                        "id": 42394,
+                        "name": "Глубокий сюжет",
+                        "slug": "glubokii-siuzhet",
+                        "language": "rus",
+                        "games_count": 9153,
+                        "image_background": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+                    },
+                    {
+                        "id": 118,
+                        "name": "Story Rich",
+                        "slug": "story-rich",
+                        "language": "eng",
+                        "games_count": 18334,
+                        "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
+                    },
+                    {
+                        "id": 8,
+                        "name": "First-Person",
+                        "slug": "first-person",
+                        "language": "eng",
+                        "games_count": 28676,
+                        "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+                    },
+                    {
+                        "id": 42429,
+                        "name": "От первого лица",
+                        "slug": "ot-pervogo-litsa",
+                        "language": "rus",
+                        "games_count": 7731,
+                        "image_background": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg"
+                    },
+                    {
+                        "id": 42465,
+                        "name": "Головоломка",
+                        "slug": "golovolomka",
+                        "language": "rus",
+                        "games_count": 11685,
+                        "image_background": "https://media.rawg.io/media/games/fd8/fd882c8267a44621a0de6f9cec77ae90.jpg"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Exploration",
+                        "slug": "exploration",
+                        "language": "eng",
+                        "games_count": 19523,
+                        "image_background": "https://media.rawg.io/media/games/9aa/9aa42d16d425fa6f179fc9dc2f763647.jpg"
+                    },
+                    {
+                        "id": 141,
+                        "name": "Point & Click",
+                        "slug": "point-click",
+                        "language": "eng",
+                        "games_count": 11761,
+                        "image_background": "https://media.rawg.io/media/games/df2/df20fd77db56ae7b0a26a7ff4baa9ccc.jpg"
+                    },
+                    {
+                        "id": 42556,
+                        "name": "Тайна",
+                        "slug": "taina",
+                        "language": "rus",
+                        "games_count": 3821,
+                        "image_background": "https://media.rawg.io/media/games/948/948fe7f00b6cba8472f5ecd07a455077.jpg"
+                    },
+                    {
+                        "id": 117,
+                        "name": "Mystery",
+                        "slug": "mystery",
+                        "language": "eng",
+                        "games_count": 11924,
+                        "image_background": "https://media.rawg.io/media/games/34e/34e100b1f648de99f32d477065f04653.jpg"
+                    },
+                    {
+                        "id": 42506,
+                        "name": "Тёмное фэнтези",
+                        "slug": "tiomnoe-fentezi",
+                        "language": "rus",
+                        "games_count": 1970,
+                        "image_background": "https://media.rawg.io/media/games/511/5116b4524cea34c6b3f12e0ca027d850.jpg"
+                    },
+                    {
+                        "id": 40,
+                        "name": "Dark Fantasy",
+                        "slug": "dark-fantasy",
+                        "language": "eng",
+                        "games_count": 3283,
+                        "image_background": "https://media.rawg.io/media/games/a6c/a6ccd34125c594abf1a9c9821b9a715d.jpg"
+                    },
+                    {
+                        "id": 42576,
+                        "name": "Изометрия",
+                        "slug": "izometriia",
+                        "language": "rus",
+                        "games_count": 1493,
+                        "image_background": "https://media.rawg.io/media/screenshots/010/0101f021b2dc123c98969fda7e4bcd92.jpg"
+                    },
+                    {
+                        "id": 99,
+                        "name": "Isometric",
+                        "slug": "isometric",
+                        "language": "eng",
+                        "games_count": 3958,
+                        "image_background": "https://media.rawg.io/media/games/840/8408ad3811289a6a5830cae60fb0b62a.jpg"
+                    },
+                    {
+                        "id": 66,
+                        "name": "Medieval",
+                        "slug": "medieval",
+                        "language": "eng",
+                        "games_count": 5409,
+                        "image_background": "https://media.rawg.io/media/games/7f0/7f021d4a3577ac9d591a628a431fc2e5.jpg"
+                    },
+                    {
+                        "id": 1465,
+                        "name": "combat",
+                        "slug": "combat",
+                        "language": "eng",
+                        "games_count": 9532,
+                        "image_background": "https://media.rawg.io/media/games/848/8482235332f4518da363c3cb4e5cd075.jpg"
+                    },
+                    {
+                        "id": 144,
+                        "name": "Crime",
+                        "slug": "crime",
+                        "language": "eng",
+                        "games_count": 2557,
+                        "image_background": "https://media.rawg.io/media/games/d69/d69810315bd7e226ea2d21f9156af629.jpg"
+                    },
+                    {
+                        "id": 119,
+                        "name": "Dystopian",
+                        "slug": "dystopian",
+                        "language": "eng",
+                        "games_count": 1806,
+                        "image_background": "https://media.rawg.io/media/screenshots/67e/67e5be6ad7a555248f50bd367e9a071c.jpg"
+                    },
+                    {
+                        "id": 42665,
+                        "name": "Антиутопия",
+                        "slug": "antiutopiia",
+                        "language": "rus",
+                        "games_count": 882,
+                        "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+                    },
+                    {
+                        "id": 142,
+                        "name": "Detective",
+                        "slug": "detective",
+                        "language": "eng",
+                        "games_count": 2717,
+                        "image_background": "https://media.rawg.io/media/games/c50/c5085506fe4b5e20fc7aa5ace842c20b.jpg"
+                    },
+                    {
+                        "id": 42526,
+                        "name": "Детектив",
+                        "slug": "detektiv",
+                        "language": "rus",
+                        "games_count": 1280,
+                        "image_background": "https://media.rawg.io/media/screenshots/75c/75c9b2a8e308bb44059d52ff59006e16.jpg"
+                    },
+                    {
+                        "id": 42672,
+                        "name": "Сюрреалистичная",
+                        "slug": "siurrealistichnaia",
+                        "language": "rus",
+                        "games_count": 1670,
+                        "image_background": "https://media.rawg.io/media/screenshots/9d2/9d22689a1c2a7ced9d1690e0c5c66871.jpg"
+                    },
+                    {
+                        "id": 46,
+                        "name": "Surreal",
+                        "slug": "surreal",
+                        "language": "eng",
+                        "games_count": 4570,
+                        "image_background": "https://media.rawg.io/media/games/d79/d794c9198ec994cc12ede5ebd4672623.jpg"
+                    },
+                    {
+                        "id": 1867,
+                        "name": "puzzles",
+                        "slug": "puzzles",
+                        "language": "eng",
+                        "games_count": 8698,
+                        "image_background": "https://media.rawg.io/media/games/e07/e07737df8469bf32d132ba9eaffc3461.jpg"
+                    },
+                    {
+                        "id": 209,
+                        "name": "Drama",
+                        "slug": "drama",
+                        "language": "eng",
+                        "games_count": 2824,
+                        "image_background": "https://media.rawg.io/media/games/0be/0bea0a08a4d954337305391b778a7f37.jpg"
+                    },
+                    {
+                        "id": 42546,
+                        "name": "Пошаговая тактика",
+                        "slug": "poshagovaia-taktika",
+                        "language": "rus",
+                        "games_count": 2157,
+                        "image_background": "https://media.rawg.io/media/games/424/424facd40f4eb1f2794fe4b4bb28a277.jpg"
+                    },
+                    {
+                        "id": 42650,
+                        "name": "Драма",
+                        "slug": "drama-2",
+                        "language": "rus",
+                        "games_count": 2213,
+                        "image_background": "https://media.rawg.io/media/games/643/6431f15213a854efd273943f2cf6a925.jpg"
+                    },
+                    {
+                        "id": 176,
+                        "name": "Turn-Based Tactics",
+                        "slug": "turn-based-tactics",
+                        "language": "eng",
+                        "games_count": 2024,
+                        "image_background": "https://media.rawg.io/media/games/628/6288a95a4a290128705891d0d7e172b6.jpg"
+                    },
+                    {
+                        "id": 200,
+                        "name": "Narration",
+                        "slug": "narration",
+                        "language": "eng",
+                        "games_count": 1511,
+                        "image_background": "https://media.rawg.io/media/games/5c0/5c0dd63002cb23f804aab327d40ef119.jpg"
+                    },
+                    {
+                        "id": 58132,
+                        "name": "Атмосферная",
+                        "slug": "atmosfernaia",
+                        "language": "rus",
+                        "games_count": 5267,
+                        "image_background": "https://media.rawg.io/media/games/91d/91ddeef8d5ebee7f21faa89efa0f2201.jpg"
+                    },
+                    {
+                        "id": 205,
+                        "name": "Lore-Rich",
+                        "slug": "lore-rich",
+                        "language": "eng",
+                        "games_count": 838,
+                        "image_background": "https://media.rawg.io/media/games/bdc/bdcb4e528bdd91bc4b3ab75fedb31f7b.jpg"
+                    },
+                    {
+                        "id": 42594,
+                        "name": "Проработанная вселенная",
+                        "slug": "prorabotannaia-vselennaia",
+                        "language": "rus",
+                        "games_count": 865,
+                        "image_background": "https://media.rawg.io/media/screenshots/871/87167cbda7085dbeb98bfc92c19d5a42.jpg"
+                    },
+                    {
+                        "id": 66533,
+                        "name": "Исследования",
+                        "slug": "issledovaniia",
+                        "language": "rus",
+                        "games_count": 4843,
+                        "image_background": "https://media.rawg.io/media/games/313/3137f0b7fb36b53e34abcde6e7607909.jpg"
+                    },
+                    {
+                        "id": 42622,
+                        "name": "Нуар",
+                        "slug": "nuar",
+                        "language": "rus",
+                        "games_count": 534,
+                        "image_background": "https://media.rawg.io/media/games/d73/d7364906c530ccc2d89b0b5d8695e03c.jpg"
+                    },
+                    {
+                        "id": 42513,
+                        "name": "Триллер",
+                        "slug": "triller",
+                        "language": "rus",
+                        "games_count": 980,
+                        "image_background": "https://media.rawg.io/media/games/d96/d966fbdebcb904af63980842b37c31c9.jpg"
+                    },
+                    {
+                        "id": 289,
+                        "name": "Noir",
+                        "slug": "noir",
+                        "language": "eng",
+                        "games_count": 1126,
+                        "image_background": "https://media.rawg.io/media/screenshots/a1e/a1e4ac4a6250cd633e760a10de4bde19.jpg"
+                    },
+                    {
+                        "id": 183,
+                        "name": "Thriller",
+                        "slug": "thriller",
+                        "language": "eng",
+                        "games_count": 1989,
+                        "image_background": "https://media.rawg.io/media/games/64a/64a7789943fe9f9d9c93f3a286ee7b20.jpg"
+                    },
+                    {
+                        "id": 2326,
+                        "name": "explore",
+                        "slug": "explore",
+                        "language": "eng",
+                        "games_count": 3254,
+                        "image_background": "https://media.rawg.io/media/screenshots/6e1/6e13d9acb4e7a6e184f24892f52c4544.jpg"
+                    },
+                    {
+                        "id": 59333,
+                        "name": "Повествовательная",
+                        "slug": "povestvovatelnaia",
+                        "language": "rus",
+                        "games_count": 1063,
+                        "image_background": "https://media.rawg.io/media/games/ab0/ab0381be59467a6c54a858c6ab65a5a5.jpg"
+                    },
+                    {
+                        "id": 650,
+                        "name": "prison",
+                        "slug": "prison",
+                        "language": "eng",
+                        "games_count": 806,
+                        "image_background": "https://media.rawg.io/media/screenshots/804/80411890c92ed564813b92a294a30317.jpg"
+                    },
+                    {
+                        "id": 1774,
+                        "name": "spaceship",
+                        "slug": "spaceship",
+                        "language": "eng",
+                        "games_count": 1409,
+                        "image_background": "https://media.rawg.io/media/screenshots/fa7/fa72c19549451d626bb86140bbc517d5.jpg"
+                    },
+                    {
+                        "id": 4451,
+                        "name": "obstacles",
+                        "slug": "obstacles",
+                        "language": "eng",
+                        "games_count": 2178,
+                        "image_background": "https://media.rawg.io/media/screenshots/a5b/a5b1a266ca43d23cd6c800ca561e4045.jpg"
+                    },
+                    {
+                        "id": 4027,
+                        "name": "travel",
+                        "slug": "travel",
+                        "language": "eng",
+                        "games_count": 756,
+                        "image_background": "https://media.rawg.io/media/games/4ae/4ae187d7ab7227c74f4da6f079cac8e3.jpg"
+                    },
+                    {
+                        "id": 3583,
+                        "name": "book",
+                        "slug": "book",
+                        "language": "eng",
+                        "games_count": 274,
+                        "image_background": "https://media.rawg.io/media/screenshots/b23/b23b0b386ae590b552fd083681124a4a.jpg"
+                    }
+                ],
+                "esrb_rating": null,
+                "user_game": null,
+                "reviews_count": 7,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/4ae/4ae187d7ab7227c74f4da6f079cac8e3.jpg"
+                    },
+                    {
+                        "id": 3895242,
+                        "image": "https://media.rawg.io/media/screenshots/3aa/3aa57760fe5398a82a1930b600228b58.jpg"
+                    },
+                    {
+                        "id": 3895243,
+                        "image": "https://media.rawg.io/media/screenshots/76a/76ad41c6fa16df802afb131ba80fd454.jpg"
+                    },
+                    {
+                        "id": 3895244,
+                        "image": "https://media.rawg.io/media/screenshots/a52/a521d36853b4bddf38ba593640194c66.jpg"
+                    },
+                    {
+                        "id": 3895245,
+                        "image": "https://media.rawg.io/media/screenshots/61a/61a8b441ff397a5e5aecc6e2f4c831a2.jpg"
+                    },
+                    {
+                        "id": 3895246,
+                        "image": "https://media.rawg.io/media/screenshots/b65/b653e1a44477afa0dedba1fc39227048.jpg"
+                    },
+                    {
+                        "id": 3895247,
+                        "image": "https://media.rawg.io/media/screenshots/169/16955d3325f76f5fdf77df89ba7f62ef.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 3,
+                            "name": "Xbox",
+                            "slug": "xbox"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 51,
+                        "name": "Indie",
+                        "slug": "indie"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Adventure",
+                        "slug": "adventure"
+                    }
+                ]
+            },
+            {
+                "slug": "genshin-impact",
+                "name": "Genshin Impact",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 18,
+                            "name": "PlayStation 4",
+                            "slug": "playstation4"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo Switch",
+                            "slug": "nintendo-switch"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 3,
+                            "name": "iOS",
+                            "slug": "ios"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 21,
+                            "name": "Android",
+                            "slug": "android"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 3,
+                            "name": "PlayStation Store",
+                            "slug": "playstation-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 4,
+                            "name": "App Store",
+                            "slug": "apple-appstore"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 8,
+                            "name": "Google Play",
+                            "slug": "google-play"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 11,
+                            "name": "Epic Games",
+                            "slug": "epic-games"
+                        }
+                    }
+                ],
+                "released": "2020-09-28",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/c38/c38bdb5da139005777176d33c463d70f.jpg",
+                "rating": 3.56,
+                "rating_top": 4,
+                "ratings": [
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 403,
+                        "percent": 43.06
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 249,
+                        "percent": 26.6
+                    },
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 173,
+                        "percent": 18.48
+                    },
+                    {
+                        "id": 1,
+                        "title": "skip",
+                        "count": 111,
+                        "percent": 11.86
+                    }
+                ],
+                "ratings_count": 919,
+                "reviews_text_count": 10,
+                "added": 3476,
+                "added_by_status": {
+                    "yet": 129,
+                    "owned": 1936,
+                    "beaten": 154,
+                    "toplay": 111,
+                    "dropped": 712,
+                    "playing": 434
+                },
+                "metacritic": 83,
+                "suggestions_count": 314,
+                "updated": "2023-07-10T00:34:13",
+                "id": 401805,
+                "score": "29.316296",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 31,
+                        "name": "Singleplayer",
+                        "slug": "singleplayer",
+                        "language": "eng",
+                        "games_count": 206544,
+                        "image_background": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Multiplayer",
+                        "slug": "multiplayer",
+                        "language": "eng",
+                        "games_count": 35108,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    {
+                        "id": 42,
+                        "name": "Great Soundtrack",
+                        "slug": "great-soundtrack",
+                        "language": "eng",
+                        "games_count": 3241,
+                        "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+                    },
+                    {
+                        "id": 24,
+                        "name": "RPG",
+                        "slug": "rpg",
+                        "language": "eng",
+                        "games_count": 17413,
+                        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+                    },
+                    {
+                        "id": 36,
+                        "name": "Open World",
+                        "slug": "open-world",
+                        "language": "eng",
+                        "games_count": 6316,
+                        "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+                    },
+                    {
+                        "id": 64,
+                        "name": "Fantasy",
+                        "slug": "fantasy",
+                        "language": "eng",
+                        "games_count": 24622,
+                        "image_background": "https://media.rawg.io/media/screenshots/88b/88b5f27f07d6ca2f8a3cd0b36e03a670.jpg"
+                    },
+                    {
+                        "id": 79,
+                        "name": "Free to Play",
+                        "slug": "free-to-play",
+                        "language": "eng",
+                        "games_count": 5479,
+                        "image_background": "https://media.rawg.io/media/games/d0f/d0f91fe1d92332147e5db74e207cfc7a.jpg"
+                    },
+                    {
+                        "id": 467,
+                        "name": "Role Playing Game",
+                        "slug": "role-playing-game",
+                        "language": "eng",
+                        "games_count": 19,
+                        "image_background": "https://media.rawg.io/media/games/8ea/8ea1e2850d7568bc9733d546c0ac6ce1.jpg"
+                    }
+                ],
+                "esrb_rating": {
+                    "id": 3,
+                    "name": "Teen",
+                    "slug": "teen",
+                    "name_en": "Teen",
+                    "name_ru": "С 13 лет"
+                },
+                "user_game": null,
+                "reviews_count": 936,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/c38/c38bdb5da139005777176d33c463d70f.jpg"
+                    },
+                    {
+                        "id": 2264493,
+                        "image": "https://media.rawg.io/media/screenshots/328/3281a100abdcad4b628066f5e803e309.jpg"
+                    },
+                    {
+                        "id": 2264494,
+                        "image": "https://media.rawg.io/media/screenshots/bf0/bf0928e424c739ee75805f76a380779b.jpg"
+                    },
+                    {
+                        "id": 2264495,
+                        "image": "https://media.rawg.io/media/screenshots/73b/73bfde00fb1652c1b932bb883fc8ac93.jpg"
+                    },
+                    {
+                        "id": 2264496,
+                        "image": "https://media.rawg.io/media/screenshots/e51/e5141aad92413e3ca779f95320c039cb.jpg"
+                    },
+                    {
+                        "id": 2264497,
+                        "image": "https://media.rawg.io/media/screenshots/6f9/6f940de85f1a0dddd232be1a88bd1b61.jpg"
+                    },
+                    {
+                        "id": 2264498,
+                        "image": "https://media.rawg.io/media/screenshots/5af/5af928858e321d15edf2dff1683a5f71.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "iOS",
+                            "slug": "ios"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 8,
+                            "name": "Android",
+                            "slug": "android"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Adventure",
+                        "slug": "adventure"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Action",
+                        "slug": "action"
+                    },
+                    {
+                        "id": 5,
+                        "name": "RPG",
+                        "slug": "role-playing-games-rpg"
+                    }
+                ]
+            },
+            {
+                "slug": "atlas-fallen",
+                "name": "Atlas Fallen",
+                "playtime": 0,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 186,
+                            "name": "Xbox Series S/X",
+                            "slug": "xbox-series-x"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 3,
+                            "name": "PlayStation Store",
+                            "slug": "playstation-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 5,
+                            "name": "GOG",
+                            "slug": "gog"
+                        }
+                    }
+                ],
+                "released": "2023-08-10",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/94c/94cc56251973600816cf50fb3323d6c8.jpg",
+                "rating": 0.0,
+                "rating_top": 0,
+                "ratings": [],
+                "ratings_count": 0,
+                "reviews_text_count": 0,
+                "added": 85,
+                "added_by_status": {
+                    "yet": 10,
+                    "owned": 14,
+                    "toplay": 61
+                },
+                "metacritic": null,
+                "suggestions_count": 315,
+                "updated": "2023-03-30T19:45:51",
+                "id": 840781,
+                "score": "76.060844",
+                "clip": null,
+                "tags": [],
+                "esrb_rating": {
+                    "id": 3,
+                    "name": "Teen",
+                    "slug": "teen",
+                    "name_en": "Teen",
+                    "name_ru": "С 13 лет"
+                },
+                "user_game": null,
+                "reviews_count": 0,
+                "community_rating": 0,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/94c/94cc56251973600816cf50fb3323d6c8.jpg"
+                    },
+                    {
+                        "id": 3534284,
+                        "image": "https://media.rawg.io/media/screenshots/594/594d98966816094f1801d5089550203a.jpg"
+                    },
+                    {
+                        "id": 3534298,
+                        "image": "https://media.rawg.io/media/screenshots/a60/a600e553ef743142524563d984bc6352.jpg"
+                    },
+                    {
+                        "id": 3534299,
+                        "image": "https://media.rawg.io/media/screenshots/03c/03c64106715a078b2a6d4b41dc6de0d3.jpg"
+                    },
+                    {
+                        "id": 3534300,
+                        "image": "https://media.rawg.io/media/screenshots/219/2194078d588b05dd50b1a54ae3e5e92e.jpg"
+                    },
+                    {
+                        "id": 3534301,
+                        "image": "https://media.rawg.io/media/screenshots/23e/23e25e00ff0fb8a8e1e93fbdc15f43c7.jpg"
+                    },
+                    {
+                        "id": 3534302,
+                        "image": "https://media.rawg.io/media/screenshots/26e/26e1283911b1a35e524e06e1c7238664.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 3,
+                            "name": "Xbox",
+                            "slug": "xbox"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Action",
+                        "slug": "action"
+                    },
+                    {
+                        "id": 5,
+                        "name": "RPG",
+                        "slug": "role-playing-games-rpg"
+                    }
+                ]
+            },
+            {
+                "slug": "subnautica-below-zero",
+                "name": "Subnautica: Below Zero",
+                "playtime": 9,
+                "platforms": [
+                    {
+                        "platform": {
+                            "id": 4,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 187,
+                            "name": "PlayStation 5",
+                            "slug": "playstation5"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "Xbox One",
+                            "slug": "xbox-one"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 18,
+                            "name": "PlayStation 4",
+                            "slug": "playstation4"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 186,
+                            "name": "Xbox Series S/X",
+                            "slug": "xbox-series-x"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo Switch",
+                            "slug": "nintendo-switch"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 5,
+                            "name": "macOS",
+                            "slug": "macos"
+                        }
+                    }
+                ],
+                "stores": [
+                    {
+                        "store": {
+                            "id": 1,
+                            "name": "Steam",
+                            "slug": "steam"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 3,
+                            "name": "PlayStation Store",
+                            "slug": "playstation-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 2,
+                            "name": "Xbox Store",
+                            "slug": "xbox-store"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 6,
+                            "name": "Nintendo Store",
+                            "slug": "nintendo"
+                        }
+                    },
+                    {
+                        "store": {
+                            "id": 11,
+                            "name": "Epic Games",
+                            "slug": "epic-games"
+                        }
+                    }
+                ],
+                "released": "2021-05-14",
+                "tba": false,
+                "background_image": "https://media.rawg.io/media/games/437/4377bf00ded8a2ba781aa74d8bff9220.jpg",
+                "rating": 4.03,
+                "rating_top": 4,
+                "ratings": [
+                    {
+                        "id": 4,
+                        "title": "recommended",
+                        "count": 130,
+                        "percent": 49.06
+                    },
+                    {
+                        "id": 5,
+                        "title": "exceptional",
+                        "count": 79,
+                        "percent": 29.81
+                    },
+                    {
+                        "id": 3,
+                        "title": "meh",
+                        "count": 48,
+                        "percent": 18.11
+                    },
+                    {
+                        "id": 1,
+                        "title": "skip",
+                        "count": 8,
+                        "percent": 3.02
+                    }
+                ],
+                "ratings_count": 262,
+                "reviews_text_count": 1,
+                "added": 1657,
+                "added_by_status": {
+                    "yet": 135,
+                    "owned": 996,
+                    "beaten": 176,
+                    "toplay": 249,
+                    "dropped": 67,
+                    "playing": 34
+                },
+                "metacritic": 80,
+                "suggestions_count": 340,
+                "updated": "2023-07-01T20:12:34",
+                "id": 287342,
+                "score": "39.842514",
+                "clip": null,
+                "tags": [
+                    {
+                        "id": 31,
+                        "name": "Singleplayer",
+                        "slug": "singleplayer",
+                        "language": "eng",
+                        "games_count": 206474,
+                        "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+                    },
+                    {
+                        "id": 42396,
+                        "name": "Для одного игрока",
+                        "slug": "dlia-odnogo-igroka",
+                        "language": "rus",
+                        "games_count": 35115,
+                        "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+                    },
+                    {
+                        "id": 42392,
+                        "name": "Приключение",
+                        "slug": "prikliuchenie",
+                        "language": "rus",
+                        "games_count": 30351,
+                        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+                    },
+                    {
+                        "id": 42398,
+                        "name": "Инди",
+                        "slug": "indi-2",
+                        "language": "rus",
+                        "games_count": 46193,
+                        "image_background": "https://media.rawg.io/media/games/174/1743b3dd185bda4a7be349347d4064df.jpg"
+                    },
+                    {
+                        "id": 42400,
+                        "name": "Атмосфера",
+                        "slug": "atmosfera",
+                        "language": "rus",
+                        "games_count": 6083,
+                        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+                    },
+                    {
+                        "id": 42401,
+                        "name": "Отличный саундтрек",
+                        "slug": "otlichnyi-saundtrek",
+                        "language": "rus",
+                        "games_count": 4461,
+                        "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
+                    },
+                    {
+                        "id": 42394,
+                        "name": "Глубокий сюжет",
+                        "slug": "glubokii-siuzhet",
+                        "language": "rus",
+                        "games_count": 9141,
+                        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                    },
+                    {
+                        "id": 42442,
+                        "name": "Открытый мир",
+                        "slug": "otkrytyi-mir",
+                        "language": "rus",
+                        "games_count": 4491,
+                        "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                    },
+                    {
+                        "id": 36,
+                        "name": "Open World",
+                        "slug": "open-world",
+                        "language": "eng",
+                        "games_count": 6313,
+                        "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+                    },
+                    {
+                        "id": 8,
+                        "name": "First-Person",
+                        "slug": "first-person",
+                        "language": "eng",
+                        "games_count": 28661,
+                        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+                    },
+                    {
+                        "id": 42429,
+                        "name": "От первого лица",
+                        "slug": "ot-pervogo-litsa",
+                        "language": "rus",
+                        "games_count": 7716,
+                        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+                    },
+                    {
+                        "id": 32,
+                        "name": "Sci-fi",
+                        "slug": "sci-fi",
+                        "language": "eng",
+                        "games_count": 17228,
+                        "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+                    },
+                    {
+                        "id": 42423,
+                        "name": "Научная фантастика",
+                        "slug": "nauchnaia-fantastika",
+                        "language": "rus",
+                        "games_count": 6099,
+                        "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                    },
+                    {
+                        "id": 40845,
+                        "name": "Partial Controller Support",
+                        "slug": "partial-controller-support",
+                        "language": "eng",
+                        "games_count": 9854,
+                        "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Horror",
+                        "slug": "horror",
+                        "language": "eng",
+                        "games_count": 41966,
+                        "image_background": "https://media.rawg.io/media/games/cee/cee577e2097a59b77193fe2bce94667d.jpg"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Exploration",
+                        "slug": "exploration",
+                        "language": "eng",
+                        "games_count": 19504,
+                        "image_background": "https://media.rawg.io/media/games/559/559bc0768f656ad0c63c54b80a82d680.jpg"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Survival",
+                        "slug": "survival",
+                        "language": "eng",
+                        "games_count": 7276,
+                        "image_background": "https://media.rawg.io/media/games/7f6/7f6cd70ba2ad57053b4847c13569f2d8.jpg"
+                    },
+                    {
+                        "id": 42452,
+                        "name": "Выживание",
+                        "slug": "vyzhivanie",
+                        "language": "rus",
+                        "games_count": 4764,
+                        "image_background": "https://media.rawg.io/media/games/7a4/7a45e4cdc5b07f316d49cf147b083b27.jpg"
+                    },
+                    {
+                        "id": 42444,
+                        "name": "Песочница",
+                        "slug": "pesochnitsa",
+                        "language": "rus",
+                        "games_count": 3188,
+                        "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+                    },
+                    {
+                        "id": 42464,
+                        "name": "Исследование",
+                        "slug": "issledovanie",
+                        "language": "rus",
+                        "games_count": 2979,
+                        "image_background": "https://media.rawg.io/media/games/849/849414b978db37d4563ff9e4b0d3a787.jpg"
+                    },
+                    {
+                        "id": 42411,
+                        "name": "Ранний доступ",
+                        "slug": "rannii-dostup",
+                        "language": "rus",
+                        "games_count": 11943,
+                        "image_background": "https://media.rawg.io/media/games/fd2/fd20a68d7ef195855588c937865dd0a7.jpg"
+                    },
+                    {
+                        "id": 14,
+                        "name": "Early Access",
+                        "slug": "early-access",
+                        "language": "eng",
+                        "games_count": 12419,
+                        "image_background": "https://media.rawg.io/media/games/009/009e4e84975d6a60173ec1199db25aa3.jpg"
+                    },
+                    {
+                        "id": 42471,
+                        "name": "Хоррор на выживание",
+                        "slug": "khorror-na-vyzhivanie",
+                        "language": "rus",
+                        "games_count": 2244,
+                        "image_background": "https://media.rawg.io/media/games/447/4470c1e76f01acfaf5af9c207d1c1c92.jpg"
+                    },
+                    {
+                        "id": 17,
+                        "name": "Survival Horror",
+                        "slug": "survival-horror",
+                        "language": "eng",
+                        "games_count": 7615,
+                        "image_background": "https://media.rawg.io/media/games/5c0/5c0dd63002cb23f804aab327d40ef119.jpg"
+                    },
+                    {
+                        "id": 125,
+                        "name": "Crafting",
+                        "slug": "crafting",
+                        "language": "eng",
+                        "games_count": 3399,
+                        "image_background": "https://media.rawg.io/media/games/fd2/fd20a68d7ef195855588c937865dd0a7.jpg"
+                    },
+                    {
+                        "id": 42497,
+                        "name": "Крафтинг",
+                        "slug": "krafting",
+                        "language": "rus",
+                        "games_count": 2095,
+                        "image_background": "https://media.rawg.io/media/games/174/1743b3dd185bda4a7be349347d4064df.jpg"
+                    },
+                    {
+                        "id": 172,
+                        "name": "Aliens",
+                        "slug": "aliens",
+                        "language": "eng",
+                        "games_count": 6261,
+                        "image_background": "https://media.rawg.io/media/games/1ed/1edaaa9e24e0072772244633d01642f4.jpg"
+                    },
+                    {
+                        "id": 42485,
+                        "name": "Инопланетяне",
+                        "slug": "inoplanetiane",
+                        "language": "rus",
+                        "games_count": 1331,
+                        "image_background": "https://media.rawg.io/media/games/f54/f54e9fb2f4aac37810ea1a69a3e4480a.jpg"
+                    },
+                    {
+                        "id": 42550,
+                        "name": "Строительство базы",
+                        "slug": "stroitelstvo-bazy",
+                        "language": "rus",
+                        "games_count": 1496,
+                        "image_background": "https://media.rawg.io/media/games/58a/58ac7f6569259dcc0b60b921869b19fc.jpg"
+                    },
+                    {
+                        "id": 180,
+                        "name": "Base Building",
+                        "slug": "base-building",
+                        "language": "eng",
+                        "games_count": 1357,
+                        "image_background": "https://media.rawg.io/media/games/a34/a34a8c9e1798ef82ee3734719d3c60d3.jpg"
+                    },
+                    {
+                        "id": 42660,
+                        "name": "Подводный мир",
+                        "slug": "podvodnyi-mir",
+                        "language": "rus",
+                        "games_count": 318,
+                        "image_background": "https://media.rawg.io/media/games/d0e/d0e19cbeefb72e26bf97aea045876103.jpg"
+                    },
+                    {
+                        "id": 250,
+                        "name": "Underwater",
+                        "slug": "underwater",
+                        "language": "eng",
+                        "games_count": 1981,
+                        "image_background": "https://media.rawg.io/media/games/739/73990e3ec9f43a9e8ecafe207fa4f368.jpg"
+                    }
+                ],
+                "esrb_rating": {
+                    "id": 2,
+                    "name": "Everyone 10+",
+                    "slug": "everyone-10-plus",
+                    "name_en": "Everyone 10+",
+                    "name_ru": "С 10 лет"
+                },
+                "user_game": null,
+                "reviews_count": 265,
+                "saturated_color": "0f0f0f",
+                "dominant_color": "0f0f0f",
+                "short_screenshots": [
+                    {
+                        "id": -1,
+                        "image": "https://media.rawg.io/media/games/437/4377bf00ded8a2ba781aa74d8bff9220.jpg"
+                    },
+                    {
+                        "id": 1817634,
+                        "image": "https://media.rawg.io/media/screenshots/dad/dad0501fcdf7404ab0ae3bfb4d15f9d2.jpg"
+                    },
+                    {
+                        "id": 1817635,
+                        "image": "https://media.rawg.io/media/screenshots/37b/37ba898965526ceb13377524e1453cf5.jpg"
+                    },
+                    {
+                        "id": 1817636,
+                        "image": "https://media.rawg.io/media/screenshots/fee/fee034b1b7091fe7069fba18cb4906cd.jpg"
+                    },
+                    {
+                        "id": 1817637,
+                        "image": "https://media.rawg.io/media/screenshots/4e3/4e3180ec8606f62e4777b1c80128e7ea.jpg"
+                    },
+                    {
+                        "id": 1817638,
+                        "image": "https://media.rawg.io/media/screenshots/c0f/c0f9dc067d19f5fdf4877e3797ed3dae.jpg"
+                    },
+                    {
+                        "id": 1817639,
+                        "image": "https://media.rawg.io/media/screenshots/342/342188a4f7c7acd2095f58d9dade6b11.jpg"
+                    }
+                ],
+                "parent_platforms": [
+                    {
+                        "platform": {
+                            "id": 1,
+                            "name": "PC",
+                            "slug": "pc"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 2,
+                            "name": "PlayStation",
+                            "slug": "playstation"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 3,
+                            "name": "Xbox",
+                            "slug": "xbox"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 5,
+                            "name": "Apple Macintosh",
+                            "slug": "mac"
+                        }
+                    },
+                    {
+                        "platform": {
+                            "id": 7,
+                            "name": "Nintendo",
+                            "slug": "nintendo"
+                        }
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 51,
+                        "name": "Indie",
+                        "slug": "indie"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Adventure",
+                        "slug": "adventure"
+                    }
+                ]
+            }
+        ]
+    }
+]

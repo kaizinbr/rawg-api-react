@@ -1,7 +1,10 @@
+"use client";
 import { IoSearch, IoChevronDown } from 'react-icons/io5'
 import { BiPlus } from "react-icons/bi";
 import Link from 'next/link';
+import Image from 'next/image';
 import NavLinks from './Controls';
+import SearchBar from './Search';
 
 export default function Navbar() {
 
@@ -9,8 +12,8 @@ export default function Navbar() {
         <nav className={`
             flex flex-row items-center justify-between
             h-16 w-[calc(100%-80px)] mx-10 my-4 px-8
-            bg-neutral-800/70 backdrop-blur-3xl rounded-full
-            fixed top-0 left-0 z-50
+            bg-neutral-800/70  rounded-full
+            fixed top-0 left-0 z-50 backdrop-blur-2xl
         `}>
             <div className={`
                 flex flex-row items-center justify-center   
@@ -18,24 +21,12 @@ export default function Navbar() {
                 <h1 className={`
                     text-2xl font-bold
                 `}>dots</h1>
-            </div>
+            </div>            
 
             <div className={`
                 flex flex-row items-center justify-center
             `}>
-                <input type="search" name="search" id="search" autoComplete="off" className={`
-                    h-8 w-64 px-4 py-2
-                    bg-neutral-800 rounded-md outline-none
-                    border border-neutral-700 hover:border-neutral-500 transition-all 
-                `} />
-                <button className={`
-                    h-8 w-8 ml-2 transition-all
-                `}>
-                    <IoSearch className={`
-                        h-6 w-6 text-neutral-100
-                    `} />
-                </button>
-
+                <SearchBar />
             </div>
 
 
@@ -50,7 +41,9 @@ export default function Navbar() {
                 <div className={`
                     h-8 w-8 rounded-full bg-neutral-200
                 `}>
-
+                    <Image src="/pfp.jpeg" alt="profile pic" width={32} height={32} className={`
+                        h-full w-full rounded-full
+                    `} />
                 </div>
             </div>
         </nav>

@@ -1,53 +1,60 @@
-import { memo } from 'react';
-import GameCard from './GameCard';
-import { Game } from '../../types/Game.types';
-import GetGames from '../../services/rawg/getGames';
+"use client";
+import React, { useEffect, useState } from 'react';
+import GameCard from './gameCard/GameCard';
+import data from '../../data/games.json'
+
+interface Game {
+    id: number;
+}
 
 interface Props {
-    cards: Game[],
-    //   cartItems: Game[];
-    //   addToCart: (game: Game) => void;
     columnsCount: number;
 }
 
-function Feed({ cards, columnsCount }: Props) {
-    const gamesPerColumn = Math.ceil(cards.length / columnsCount);
-    
+const Feed = ({ columnsCount }: Props) => {
+    const [games, setGames] = useState<Game[]>([]);
+
+    useEffect(() => {
+        setGames(data[0].results);
+    }, []);
+
+
+    const cardsPerColumn = Math.ceil(games.length / columnsCount);
+
     const columns = Array(columnsCount).fill(null).map((_, index) => {
-        const gamesToDisplay = [];
-        for (let i = 0; i < gamesPerColumn; i++) {
-            const gameIndex = i * columnsCount + index;
-            if (gameIndex < cards.length) {
-                gamesToDisplay.push(cards[gameIndex]);
+        const cardsToDisplay = [];
+        for (let i = 0; i < cardsPerColumn; i++) {
+            const cardIndex = i * columnsCount + index;
+            if (cardIndex < games.length) {
+                cardsToDisplay.push(games[cardIndex]);
             }
         }
-        return gamesToDisplay;
+        return cardsToDisplay;
     });
 
     return (
-        <div className={`Grid min-h-screen w-full
-         grid grid-rows-${columnsCount} gap-4 grid-flow-col
-         px-24
-        `}>
-            <>
-                <GetGames />
-                {columns.map((column, index) => (
-                    <div key={`column-${index}`} className="Column">
-                        {column.map(async (game) => (
-                            <GameCard
-                                key={game.id} 
-                                id={game.id}
-                                bg={game.bg}
-                                h={game.h}
-                                name={game.name}
-                            />
-                            // <div key={game.id}>{game.h}</div>
-                        ))}
-                    </div>
-                ))}
-            </>
+        <div className={` feed
+            grid gap-6 grid-cols-${columnsCount}
+            px-8 items-start
+        `}
+            style={{
+                gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`
+            }}
+        >
+            {/* {games.map((game) => (
+                <GameCard key={game.id} game={game} />
+            ))} */}
+
+            {columns.map((column, index) => (
+                <div key={`column-${index}`} className="column grid gap-6 ">
+                    {column.map((game) => (
+                        <GameCard key={game.id} game={game} />
+                    ))}
+                </div>
+            ))}
+
         </div>
     );
-}
+};
 
 export default Feed;

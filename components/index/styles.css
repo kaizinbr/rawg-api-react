@@ -2,17 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper {
-    width: 100%;
-    height: 100%;
+.bulletsP {
+    --swiper-pagination-color: var(--swiper-theme-color);
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-width: 8px;
+    --swiper-pagination-bullet-height: 8px;
+    --swiper-pagination-bullet-inactive-color: #ffffff;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 4px;
+    --swiper-pagination-bullet-vertical-gap: 6px;
+    transform: translateX(0) !important;
 }
+
+/* .swiper {
+    overflow: visible !important;
+} */
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +38,54 @@
 .swiper-slide {
     width: 25% !important;
     transition: all 0.3s ease-in-out;
-}
-
-/* .swiper-slide:nth-child(2n) {
-    width: 60%;
-}*/
-
-.swiper-slide:first-child {
-    width: 40%;
+    height: auto;
+    max-height: 440px;
+    aspect-ratio: 16/9;
 }
 
 .swiper-slide-active {
-    width: 65% !important;
+    width: 55% !important;
 }
 
-/* @property --percentage {
+/* .Hided{
+    height: 250px !important;
+} */
+
+/* @media (max-width: 640px) {
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .swiper-slide-active {
+        width: 100% !important;
+    }
+} */
+
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: 100% !important;
+        transition: all 0.3s ease-in-out;
+        height: auto;
+        max-height: 100%;
+        aspect-ratio: 16/9;
+        border-radius: 0 !important;
+    }
+
+    .swiper-slide-active {
+        width: 100% !important;
+    }
+}
+
+/* @media (max-width: 1024px) {
+
+    .swiper-slide-active {
+        width: 60% !important;
+        padding: 0 1rem;
+    }
+}
+
+
+@property --percentage {
     initial-value: 0%;
     inherits: false;
     syntax: "<percentage>";

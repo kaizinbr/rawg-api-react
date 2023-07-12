@@ -4,6 +4,7 @@ import Link from "next/link";
 import { cardSpacing, contentSpacing, cardWidth } from "../../services/calcColumns";
 import { useEffect, useState } from "react";
 import { useWindowWidth } from '@react-hook/window-size';
+import ImageComponent from "./bannerCard/Banner copy";
 
 // function calculateColumns () {
 //     // const [ width, setWidth ] = getCurrentDimension();
@@ -30,14 +31,17 @@ export default function Index() {
     useEffect(() => {
         setColumnsCount(Math.floor(windowWidth / cardWidth) || 1);
     }, [windowWidth]);
-    useEffect(() => {window.addEventListener('resize', () => {
-        setColumnsCount(Math.floor(windowWidth / cardWidth) || 1);
-    })})
+    useEffect(() => {
+        window.addEventListener('resize', () => {
+            setColumnsCount(Math.floor(windowWidth / cardWidth) || 1);
+        })
+    })
 
     return (
         <div className={`
             min-h-screen w-full
-       `}>
+        `}>
+            {/* <ImageComponent imageUrl="https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg" /> */}
             <Feed columnsCount={columnsCount} />
         </div>
     )
