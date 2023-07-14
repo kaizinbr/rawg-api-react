@@ -9,7 +9,6 @@ import {
 import { HeartBtn, PostBtn, ShareBtn, MoreBtn } from './cardCtrls';
 import Transition from '../Transition';
 import AgeRatingSpan from './AgeRatingSpan';
-import { usePalette } from '@roylee1997/react-palette';
 
 interface CardProps {
     game: any;

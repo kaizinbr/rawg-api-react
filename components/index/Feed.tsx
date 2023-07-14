@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, memo } from 'react';
 import getGames from '../../services/rawg/getGameList';
 import GameCard from './gameCard/GameCard';
 
@@ -56,4 +56,4 @@ const Feed = ({columnsCount}: Props) => {
     );
 };
 
-export default Feed;
+export default memo(Feed);
