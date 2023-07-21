@@ -17,7 +17,7 @@ export function HeartBtn({ isHovered, isLiked, handleLike, handleUnlike }: any) 
         `}>
             <PiHeartBold
             className={`
-                text-neutral-300 text-xl
+                text-neutral-300 text-base md:text-lg lg:text-xl
                 cursor-pointer
             `} />
         </div>
@@ -33,7 +33,7 @@ export function PostBtn({ isHovered }: any) {
         `}>
             <PiPlusCircleBold
             className={`
-                text-neutral-300 text-xl
+                text-neutral-300 text-base md:text-lg lg:text-xl
                 cursor-pointer
             `} />
         </div>
@@ -49,7 +49,7 @@ export function ShareBtn({ isHovered }: any) {
         `}>
             <PiShareFatBold
             className={`
-                text-neutral-300 text-xl
+                text-neutral-300 text-base md:text-lg lg:text-xl
                 cursor-pointer
             `} />
         </div>
@@ -65,7 +65,7 @@ export function MoreBtn({ isHovered }: any) {
         `}>
             <PiDotsThreeOutlineVerticalFill
             className={`
-                text-neutral-300 text-xl
+                text-neutral-300 text-base md:text-lg lg:text-xl
                 cursor-pointer
             `} />
         </div>

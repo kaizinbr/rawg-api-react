@@ -54,7 +54,7 @@ function useMenuAnimation(isOpen: boolean) {
     return scope;
 }
 
-export default function Controls() {
+export default function TestConstrols() {
     const [isOpen, setIsOpen] = useState(false);
     const scope = useMenuAnimation(isOpen);
 
@@ -67,7 +67,7 @@ export default function Controls() {
         await (async () => {
             isOpen ? handleMenuOpen() : null;
             setIsScrolling(true);
-            scope.current.style.opacity = `.7`;
+            scope.current.style.opacity = `.5`;
         })();
     });
 

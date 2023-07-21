@@ -9,8 +9,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import data from "../../../data/banner.json"
-import "../styles.css";
-import { Navigation, Pagination, Autoplay } from "swiper";
+import "./styles.css";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import ColorThief from 'colorthief';
 import BannerCard from "./BannerCard";
 

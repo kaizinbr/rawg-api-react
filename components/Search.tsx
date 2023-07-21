@@ -16,7 +16,7 @@
 //             width: 400,
 //         },
 //         visible: {
-//             width: 700, 
+//             width: 700,
 //         }
 //     }
 
@@ -27,12 +27,12 @@
 //             `}
 //             initial={{ maxWidth: 400 }}
 //             animate={formControls}
-//         // onSubmit={search} 
+//         // onSubmit={search}
 //         >
 //             <motion.input name="search" id="search" autoComplete="off" className={`
 //                     h-8 w-64 px-4 py-2
 //                     bg-neutral-800/70 backdrop-blur-3xl rounded-md outline-none
-//                     border border-neutral-700 hover:border-neutral-500 transition-all 
+//                     border border-neutral-700 hover:border-neutral-500 transition-all
 //                 `}
 //                 type="text"
 //                 placeholder="Search games..."
@@ -55,7 +55,6 @@
 //     )
 // }
 
-
 // import { IoSearch } from "react-icons/io5";
 // import { motion, useAnimation } from "framer-motion";
 // import { useState, useEffect } from "react";
@@ -74,7 +73,7 @@
 //             width: 400,
 //         },
 //         visible: {
-//             width: 700, 
+//             width: 700,
 //         }
 //     }
 
@@ -85,12 +84,12 @@
 //             `}
 //             initial={{ maxWidth: 400 }}
 //             animate={formControls}
-//         // onSubmit={search} 
+//         // onSubmit={search}
 //         >
 //             <motion.input name="search" id="search" autoComplete="off" className={`
 //                     h-8 w-64 px-4 py-2
 //                     bg-neutral-800/70 backdrop-blur-3xl rounded-md outline-none
-//                     border border-neutral-700 hover:border-neutral-500 transition-all 
+//                     border border-neutral-700 hover:border-neutral-500 transition-all
 //                 `}
 //                 type="text"
 //                 placeholder="Search games..."
@@ -113,8 +112,8 @@
 //     )
 // }
 "use client";
-import React, { useState, useEffect, use } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import React, { useState, useEffect, use } from "react";
+import { motion, useAnimation } from "framer-motion";
 import { IoSearch } from "react-icons/io5";
 
 const SearchBar = () => {
@@ -124,13 +123,13 @@ const SearchBar = () => {
         setIsExpanded(!isExpanded);
     };
 
-    const controls = useAnimation()
+    const controls = useAnimation();
 
     useEffect(() => {
         controls.start({
-            width: isExpanded ? 500 : 256,
-        })
-    })
+            width: isExpanded ? 420 : 256,
+        });
+    });
 
     return (
         <motion.div
@@ -139,9 +138,9 @@ const SearchBar = () => {
             className={`flex flex-row items-center justify-center`}
             animate={controls}
             transition={{
-                type: 'spring',
+                type: "spring",
                 stiffness: 500,
-                damping: 30,
+                damping: 25,
             }}
         >
             <input
@@ -149,24 +148,28 @@ const SearchBar = () => {
                 placeholder="Search"
                 className={`
                     h-8 px-4 py-2 w-4/5
-                    bg-neutral-400/10 backdrop-blur-3xl rounded-md outline-none
-                      transition-all 
+                    bg-neutral-300/10 border border-neutral-500/20 rounded-md outline-none
+                    transition-all
                 `}
-            // style={{
-            //     border: 'none',
-            //     outline: 'none',
-            //     background: 'transparent',
-            //     width: '80%',
-            //     fontSize: 16,
-            //     paddingLeft: 10,
-            // }}
+                // style={{
+                //     border: 'none',
+                //     outline: 'none',
+                //     background: 'transparent',
+                //     width: '80%',
+                //     fontSize: 16,
+                //     paddingLeft: 10,
+                // }}
             />
-            <button className={`
-                     h-8 w-8 ml-2 transition-all
-                 `}>
-                <IoSearch className={`
-                         h-5 w-5 text-neutral-400 hover:text-neutral-200 transition-all
-                     `} />
+            <button
+                className={`
+                    h-8 w-8 ml-2 transition-all
+                `}
+            >
+                <IoSearch
+                    className={`
+                        h-5 w-5 text-neutral-400 hover:text-neutral-200 transition-all
+                    `}
+                />
             </button>
         </motion.div>
     );

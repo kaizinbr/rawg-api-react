@@ -5,9 +5,9 @@ interface Game {
     // Outras propriedades relevantes do jogo
 }
 
-const getScreenshots = async (id: number) => {
+const getGameSeries = async (id: number) => {
     try {
-        const response = await api.get(`games/${id}/screenshots`);
+        const response = await api.get(`games/${id}/game-series`);
 
         return response.data.results;
     } catch (error) {
@@ -17,4 +17,4 @@ const getScreenshots = async (id: number) => {
     }
 };
 
-export default getScreenshots;
+export default getGameSeries;

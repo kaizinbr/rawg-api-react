@@ -4,8 +4,38 @@ import { SiWindows11, SiIos, SiNintendo3Ds, SiMacos, SiLinux, SiWiiu, SiWii, SiC
 import { FaXbox } from 'react-icons/fa';
 import { GiGamepad } from 'react-icons/gi';
 
-export default function PlatformIcon({ platform }: any) {
-    switch (platform) {
+export function getReactionIcon(reaction: string) {
+
+
+    switch (reaction) {
+        case '1':
+            return <span></span>
+            break;
+        case '2':
+            return <BsPlaystation className="text-primary-500" />
+            break;
+        case '3':
+            return <BsPlaystation className="text-primary-500" />
+            break;
+        case '4':
+            return <BsPlaystation className="text-primary-500" />
+            break;
+        case '5':
+            return <BsPlaystation className="text-primary-500" />
+            break;
+        case '6':
+            return <SiSega className="text-primary-500" />
+            break;
+        default:
+            return <GiGamepad className="text-primary-500" />;
+
+    }
+
+
+}
+
+export function getPlatformIcon(slug: string) {
+    switch (slug) {
         case 'playstation5':
             return <BsPlaystation className="text-primary-500" />
             break;

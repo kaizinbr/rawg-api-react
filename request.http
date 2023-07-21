@@ -6,4 +6,4 @@
 
 
 ## GET
-GET https://api.rawg.io/api/games/3328/screenshots?key=6b749e73010d4081b7a673763e7c93d6
+GET https://api.rawg.io/api/games?key=6b749e73010d4081b7a673763e7c93d6&search=ori-and-the-will-of-the-wisps

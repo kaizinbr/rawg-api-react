@@ -1,4 +1,5 @@
-import GameIndex from "@/components/index/gamePage/GamePageIndex";
+import GameApp from "@/components/index/gamePage/GamePageIndex";
+import data from "@/data/gameData.json";
 
 export async function generateMetadata({
     params,
@@ -6,7 +7,7 @@ export async function generateMetadata({
     params: { games: string[] };
 }) {
     return {
-        title: "Game",
+        title: data.name,
         description: "A game page",
         slug: params.games[1],
     };
@@ -18,10 +19,10 @@ export default function Game({ params }: { params: { games: string[] } }) {
 
     return (
         <div className="">
-            <p>
+            {/* <p>
                 Esse game tem o slug: {params.games[1]} e id: {params.games[0]}
-            </p>
-            <GameIndex id={id} />
+            </p> */}
+            <GameApp id={id} />
         </div>
     );
 }

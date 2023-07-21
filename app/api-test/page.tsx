@@ -27,6 +27,11 @@ const Teste = () => {
             gap-20
         `}>
             <Banner />
+
+            {/* <div className="py-56">
+                <h1 className="text-5xl text-red-500">Teste de cor</h1>
+            </div> */}
+
             <Index />
 
         </div>

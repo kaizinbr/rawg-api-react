@@ -8,6 +8,37 @@
     --background-end-rgb: 255, 255, 255;
 }
 
+::selection {
+    background: rgb(248 113 113);
+    color: rgb(245, 245, 245);
+}
+
+* {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(0, 0, 0, 0.4) rgb( 38, 38, 38);
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background: rgb(0, 0, 0, 0.4);
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb( 38, 38, 38);
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb( 85, 85, 85);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgb( 85, 85, 85);
+}
+  
+
 @layer utilities {
         .masonry-3-col {
             column-count: 3;
@@ -40,3 +71,6 @@ body {
             rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
 }
 
+.swiper-pagination-bullet-active {
+    background: rgb(248 113 113) !important;
+}

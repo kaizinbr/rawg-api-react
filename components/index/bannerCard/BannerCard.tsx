@@ -117,12 +117,14 @@ export default function BannerCard({ imageUrl, title, slug, id }: BannerCardProp
                             text-white text-sm font-normal rounded-xl
                             flex items-center justify-center
                             bg-neutral-950/30 backdrop-blur-sm 
-                            transition-all duration-500 ease-in-out
+                            hover:bg-neutral-950/50    
+                            transition-all duration-300 ease-in-out
                         `}
                     >
-                        <Link href={`/movie/${slug}/${id}`}
+                        <Link 
+                            href={`/games/${id}/${slug}`}
                             className={`
-                                h-full w-full px-6 py-2
+                                h-full w-full px-6 py-2 
                             `}
                         >
                             Ver detalhes

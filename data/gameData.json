@@ -203,7 +203,10 @@
                 "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
             },
             "released_at": "2015-05-18",
-            "requirements": {}
+            "requirements": {
+                "minimum": "Minimi:\nRichiede un processore e un sistema operativo a 64 bit\nSistema operativo: 64-bit Windows 10\nProcessore: Intel Core i5-6600 (3.3Ghz) or AMD Ryzen 5 1400 (3.2Ghz)\nMemoria: 16 GB di RAM\nScheda video: NVIDIA GeForce GTX 960 4GB or AMD Radeon RX 470 4GB\nDirectX: Versione 12\nMemoria: 85 GB di spazio disponibile\nNote aggiuntive: SSD (Preferred), HDD (Supported), 720p/30 fps, Low Quality Settings",
+                "recommended": "Consigliati:\nRichiede un processore e un sistema operativo a 64 bit\nSistema operativo: 64-bit Windows 10\nProcessore: Intel Core i7-8700 (3.2Ghz) or AMD Ryzen 5 3600 (3.6 Ghz)\nMemoria: 16 GB di RAM\nScheda video: NVIDIA GeForce 1080 Ti or AMD Radeon RX 5700 XT or INTEL Arc A770\nDirectX: Versione 12\nMemoria: 85 GB di spazio disponibile\nNote aggiuntive: SSD, 1080p/60 fps, High Quality Settings"
+              }
         },
         {
             "platform": {
@@ -491,6 +494,13 @@
         }
     ],
     "publishers": [
+        {
+            "id": 7411,
+            "name": "CD PROJEKT RED",
+            "slug": "cd-projekt-red",
+            "games_count": 26,
+            "image_background": "https://media.rawg.io/media/screenshots/cf9/cf90097e47a02e91e099eb590c44ae4a.jpg"
+        },
         {
             "id": 7411,
             "name": "CD PROJEKT RED",

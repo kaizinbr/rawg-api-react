@@ -1,0 +1,34 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide.screenshot-slide {
+    text-align: center;
+    width: auto !important;
+    background: none;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.bulletsG .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: rgb(23 23 23);
+    opacity: .7;
+}
+
+.bulletsG .swiper-pagination-bullet-active {
+    background: rgb(248 113 113);
+    opacity: 1;
+}
