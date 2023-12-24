@@ -29,7 +29,9 @@ export default function Index() {
     const windowWidth = useWindowWidth();
 
     useEffect(() => {
-        setColumnsCount(Math.floor(windowWidth / cardWidth) || 1);
+        const colCount = Math.floor(windowWidth / cardWidth) > 4 ? 4 : Math.floor(windowWidth / cardWidth) || 1;
+        // console.log(colCount)
+        setColumnsCount(colCount);
     }, [windowWidth]);
     useEffect(() => {
         window.addEventListener('resize', () => {

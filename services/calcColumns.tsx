@@ -5,21 +5,20 @@ export const cardWidth = 315;
 export const contentSpacing = 32;
 export const cardSpacing = 20;
 
-// export default function calculateColumns () {
-//     const screenWidth = useWindowWidth();
-//     const cardWidth = 315;
-//     const contentSpacing = 32;
-//     const cardSpacing = 20;
+export default function calculateColumns (games: any, columnsCount: number) {
+    const cardsPerColumn = Math.ceil(games.length / columnsCount);
+    const columns = Array(columnsCount)
+        .fill(null)
+        .map((_, index) => {
+            const cardsToDisplay = [];
+            for (let i = 0; i < cardsPerColumn; i++) {
+                const cardIndex = i * columnsCount + index;
+                if (cardIndex < games.length) {
+                    cardsToDisplay.push(games[cardIndex]);
+                }
+            }
+            return cardsToDisplay;
+        });
 
-//     let numColumns = Math.floor((screenWidth - 2 * contentSpacing) / cardWidth);
-//     const totalSpacing = (numColumns - 1) * cardSpacing;
-//     const totalCardWidth = numColumns * cardWidth + totalSpacing;
-
-//     if (totalCardWidth > screenWidth - 2 * contentSpacing) {
-//         numColumns--;
-//     }
-
-//     console.log(useWindowWidth())
-
-//     return numColumns;
-// };
+    return columns;
+};

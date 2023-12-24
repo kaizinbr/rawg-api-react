@@ -21,7 +21,6 @@
 ::-webkit-scrollbar {
     height: 8px;
     width: 8px;
-    background: rgb(0, 0, 0, 0.4);
     -webkit-border-radius: 1ex;
 }
 
@@ -72,5 +71,24 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-    background: rgb(248 113 113) !important;
+    background: rgb(110 231 183) !important;
+}
+
+.spinner {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    overflow: visible;
+}
+
+.spinner>circle {
+    fill: none;
+    stroke: rgb(110 231 183);
+    cx: 50%;
+    cy: 50%;
+    r: 50%;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    transform-origin: center;
 }

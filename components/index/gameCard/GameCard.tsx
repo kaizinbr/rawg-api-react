@@ -11,6 +11,7 @@ import { PiCaretDownBold, PiStarFill } from "react-icons/pi";
 import { HeartBtn, PostBtn, ShareBtn, MoreBtn } from "./cardCtrls";
 import Transition from "../Transition";
 import AgeRatingSpan from "./AgeRatingSpan";
+import "./gameCard.css"
 
 interface CardProps {
     game: any;
@@ -29,11 +30,11 @@ const GameCard = ({ game }: CardProps) => {
     const [height, setHeight] = useState(0);
     const heightRef = useRef<any>(null);
 
-    const isMobile = window.innerWidth < 768;
+    const isMobile = window.innerWidth < 992;
 
     useEffect(() => {
         setHeight(heightRef.current.clientHeight);
-        // isMobile ? setShowInfos(true) : setShowInfos(false)
+        isMobile ? setShowInfos(true) : setShowInfos(false)
     }, []);
 
     const footerRef = useRef<any>(null);
@@ -50,6 +51,7 @@ const GameCard = ({ game }: CardProps) => {
         if (isHovered) {
             setShowInfos(true);
         } else {
+            console.log(isMobile)
             setShowInfos(false);
         }
 
@@ -61,10 +63,15 @@ const GameCard = ({ game }: CardProps) => {
         <>
             <div
                 className={`
-                game-card
-                w-full rounded-xl p-0 m-0
-                bg-neutral-800 overflow-hidden
-                flex flex-col justify-start items-start
+                    game-card
+                    w-full rounded-xl p-0 m-0
+                    bg-neutral-800 overflow-hidden
+                    flex flex-col justify-start items-start
+                    min-w-[280px]
+                    hover:shadow-2xl 
+                    hover:shadow-emerald-500/30
+                    transition-shadow duration-300 ease-in-out
+                    border border-transparent hover:border-neutral-500/20
                 `}
             >
                 <motion.div
@@ -109,7 +116,7 @@ const GameCard = ({ game }: CardProps) => {
                 `}
                     transition={{ type: "spring", stiffness: 400, damping: 30 }}
                     animate={{
-                        height: showInfos ? "250px" : footerInitialHeight,
+                        height: showInfos && !isMobile ? "250px" : footerInitialHeight,
                     }}
                     // whileHover={{ height: 250, minHeight: 'auto' }}
                     onClick={() => {
@@ -124,7 +131,7 @@ const GameCard = ({ game }: CardProps) => {
                         setIsHovered(false);
                         if (clicked) {
                             return;
-                        } else {
+                        } else if (!isMobile) {
                             setShowInfos(false);
                         }
                     }}
@@ -135,8 +142,8 @@ const GameCard = ({ game }: CardProps) => {
                         <Link
                             href={`/games/${game.id}/${game.slug}`}
                             className={`
-                                text-neutral-100 text-lg font-semibold
-                                hover:text-red-400 transition duration-300
+                                text-neutral-300 text-lg font-semibold
+                                hover:text-emerald-300 transition duration-300
                                 w-fit
                             `}
                         >

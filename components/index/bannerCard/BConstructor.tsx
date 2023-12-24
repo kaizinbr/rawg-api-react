@@ -24,7 +24,7 @@ export default function Banner() {
 
 
     return (
-        <div className="flex flex-col justify-center items-center w-full -mt-24">
+        <div className="flex flex-col justify-center items-center w-full -mt-24 z-20">
             <Swiper
                 slidesPerView={4}
                 loop={true}
@@ -54,14 +54,14 @@ export default function Banner() {
                 modules={[Navigation, Pagination, Autoplay]}
                 className={`mySwiper
                     flex flex-col items-center justify-center w-full h-full pt-24 pb-44
-                    z-1
+                    z-20
                 `}
             >
                 {data[0].results.map((game) => (
                     <SwiperSlide
                         key={`slide-${game.id}`}
                         className={`
-                            bg-transparent h-auto lg:h-[440px] px-4 md:px-0 group
+                            z-40 bg-transparent h-auto lg:h-[440px] min-[1536px]:max-h-[792px] min-[1536px]:h-[792px] px-1 md:px-0 group
                     `}>
                         <BannerCard 
                             key={game.id}

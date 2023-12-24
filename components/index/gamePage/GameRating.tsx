@@ -143,18 +143,18 @@ export function GameRating({ game }: any) {
     const ratingParse = Math.floor(game.rating);
     let rateIndex = ratingParse;
     return (
-        <div className="flex flex-col justify-center items-start col-span-12 gap-4">
+        <div className="flex flex-col justify-center items-start col-span-6 md:col-span-12 gap-4 order-6">
             <div>
                 <h3 className="text-2xl text-left font-bold">Avaliações</h3>
             </div>
             <div className="grid w-full grid-cols-12 gap-8">
                 <div
                     className={`
-                    flex flex-col justify-end items-start gap-2 col-span-2
+                    grid grid-cols-2 justify-end items-start gap-2 min-[992px]:col-span-2 md:col-span-3 col-span-12
                 `}
                 >
-                    <h4 className="text-7xl font-bold">{game.rating}</h4>
-                    <div className="flex flex-row gap-4">
+                    <h4 className="text-5xl sm:text-7xl font-bold md:col-span-2 md:row-span-1 row-span-2 md:text-start text-end">{game.rating}</h4>
+                    <div className="flex flex-row gap-4 md:col-span-2 items-end h-full">
                         {Array.from(Array(ratingParse), (index: number, e) => {
                             return (
                                 <PiStarFill
@@ -164,16 +164,16 @@ export function GameRating({ game }: any) {
                             );
                         })}
                     </div>
-                    <span className="text-neutral-300">
+                    <span className="text-neutral-300 md:col-span-2 md:col-start-1 col-start-2">
                         {game.reviews_count} avaliações
                     </span>
                 </div>
                 <div
                     className={`
-                    grid grid-cols-12 grid-rows-4 gap-4 col-span-10
+                    grid grid-cols-12 grid-rows-4 gap-3 sm:gap-4 min-[992px]:col-span-10 md:col-span-9 col-span-12
                 `}
                 >
-                    <div className="flex flex-col justify-center items-end gap-4 col-span-2 row-span-4">
+                    <div className="flex flex-col justify-center items-end gap-4 col-span-3 md:col-span-2 row-span-4">
                         {game.ratings.map((rate: any, index: number) => {
                             return <Label key={index} {...rate} />;
                         })}
@@ -181,7 +181,7 @@ export function GameRating({ game }: any) {
                     <div
                         className={`
                             flex flex-col h-full justify-between items-start gap-4
-                            col-span-10 row-span-4
+                            col-span-9 md:col-span-10 row-span-4
                         `}
                     >
                         {game.ratings.map((rate: any, index: number) => {
@@ -210,7 +210,11 @@ export function GameMetacritic({ game }: any) {
     const isNull = game.metacritic === null;
 
     return (
-        <div className="flex flex-col justify-around items-center col-span-4 bg-neutral-800 rounded-2xl p-4 gap-6 max-h-[500px]">
+        <div className={`
+            order-2 min-[992px]:order-4 flex flex-col justify-around items-center 
+            bg-neutral-800 rounded-2xl p-4 gap-6 lg:max-h-[500px] max-h-[700px]
+            md:col-span-7 col-span-3 min-[992px]:col-span-4 
+        `}>
             <div className="flex flex-col justify-center items-center gap-5">
                 <div
                     className={`
@@ -240,7 +244,7 @@ export function GameMetacritic({ game }: any) {
                     <h4 className="font-semibold">Individuais</h4>
                     <div
                         className={`
-                    flex flex-row justify-around gap-2
+                    grid grid-cols-3 justify-around gap-2
                 `}
                     >
                         {game.metacritic_platforms
@@ -249,13 +253,13 @@ export function GameMetacritic({ game }: any) {
                                 return (
                                     <div
                                         key={index}
-                                        className="justify-center items-center gap-2 flex flex-row"
+                                        className="justify-center items-center gap-2 flex flex-col lg:flex-row bg-neutral-700 rounded-lg"
                                     >
                                         <div
                                             className={`
-                                        flex flex-col justify-center items-center gap-2
-                                        px-2 py-6 min-w-[75px]
-                                    `}
+                                                flex flex-col justify-center items-center gap-2
+                                                px-2 py-6 min-w-[75px] text-center
+                                            `}
                                         >
                                             <span className="text-xl font-semibold">
                                                 {platform.metascore}
@@ -264,10 +268,10 @@ export function GameMetacritic({ game }: any) {
                                                 {platform.platform.name}
                                             </span>
                                         </div>
-                                        {index !==
+                                        {/* {index !==
                                         Object.values(game.metacritic_platforms).length - 1 && index !== 2 ? (
-                                            <div className="h-full w-[1px] bg-neutral-700 rounded-full" />
-                                        ) : null}
+                                            <div className="lg:h-full lg:w-[1px] h-[1px] w-full bg-neutral-700 rounded-full" />
+                                        ) : null} */}
                                     </div>
                                 );
                             })}

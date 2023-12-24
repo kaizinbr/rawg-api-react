@@ -31,7 +31,7 @@ const Platform = ({ platform }: any) => {
 export default function GamePlatforms({ game }: any) {
     // console.log(game.id)
     return (
-        <div className="flex flex-col justify-start items-start col-span-12 bg-neutral-800 gap-4 rounded-xl pt-4 pb-7 px-6">
+        <div className="flex flex-col justify-start items-start col-span-6 md:col-span-12 bg-neutral-800 gap-4 rounded-xl pt-4 pb-7 px-6 order-9">
             <div>
                 <h3 className="text-2xl font-bold">Plataformas</h3>
             </div>

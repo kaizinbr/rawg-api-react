@@ -34,7 +34,7 @@ export default function GameSpecifications({ game }: any) {
     const localDate = date.toLocaleDateString("pt-BR");
 
     return (
-        <div className="grid grid-cols-8 gap-x-8 gap-y-4 col-span-8 bg-neutral-800 rounded-xl pt-4 pb-7 px-6">
+        <div className="grid grid-cols-8 gap-x-8 gap-y-4 col-span-6 md:col-span-8 bg-neutral-800 rounded-xl pt-4 pb-7 px-6 order-7">
             <div className="col-span-8">
                 <h3 className="text-2xl font-bold">Especificações</h3>
             </div>

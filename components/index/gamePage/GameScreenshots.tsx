@@ -51,7 +51,7 @@ export default function GameScreenshots({ id }: GameId) {
     // console.log({screenshots: screenshots})
 
     return (
-        <div className="flex flex-col justify-center items-center col-span-12 gap-4" id="screenshots">
+        <div className="flex flex-col justify-center items-center col-span-6 md:col-span-12 gap-4 order-5" id="screenshots">
             <h1 className="text-2xl font-bold mb-2">Screenshots</h1>
             <Swiper 
                 className="mySwiper justify-center items-center"

@@ -39,7 +39,7 @@ export default function BannerCard({ imageUrl, title, slug, id }: BannerCardProp
         return new Promise((resolve) => {
             image.addEventListener('load', () => {
                 const dominantColor = colorThief.getColor(image);
-                console.log(dominantColor, 'dominantColor')
+                // console.log(dominantColor, 'dominantColor')
                 resolve(dominantColor);
             });
         });
@@ -69,8 +69,8 @@ export default function BannerCard({ imageUrl, title, slug, id }: BannerCardProp
         >
             <Image
                 className={`
-                    h-full w-full flex flex-col justify-end items-center rounded-xl z-10 transition-all duration-500 ease-in-out
-                    absolute
+                    h-full w-full flex flex-col justify-end items-center rounded-xl z-20 transition-all duration-500 ease-in-out
+                    absolute 
                 `}
                 style={{
                     backgroundSize: 'cover',
@@ -91,7 +91,7 @@ export default function BannerCard({ imageUrl, title, slug, id }: BannerCardProp
                 priority={true}
             />
             <div className={`
-                flex flex-col items-start justify-center text-left z-10
+                flex flex-col items-start justify-center text-left z-20
                 h-full group-[.swiper-slide-active]:max-w-[50%] w-full pl-6 rounded-xl
                 
                 transition-all duration-500 ease-in-out delay-300
@@ -103,10 +103,10 @@ export default function BannerCard({ imageUrl, title, slug, id }: BannerCardProp
             >
                 <h2
                     className={`
-                        text-white text-lg font-semibold
+                        text-white text-base md:text-lg font-semibold
                         relative
                         transition-all duration-500 ease-in-out delay-300
-                        group-[.swiper-slide-active]:text-2xl
+                        md:group-[.swiper-slide-active]:text-2xl group-[.swiper-slide-active]:text-xl
                         opacity-0 group-hover:opacity-100 group-[.swiper-slide-active]:opacity-100
                     `}
                 >{title}</h2>
