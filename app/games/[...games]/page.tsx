@@ -22,6 +22,7 @@ export default function Game({ params }: { params: { games: string[] } }) {
             {/* <p>
                 Esse game tem o slug: {params.games[1]} e id: {params.games[0]}
             </p> */}
+            <div className="w-full text-center"><span className="text-sm ">Aqui eu nao arrumei ainda</span></div>
             <GameApp id={id} />
         </div>
     );

@@ -1,3 +1,4 @@
+import { AddToCartBtn } from '@/components/cart/add-to-cart';
 import {
     PiHeartBold,
     PiHeartFill,
@@ -10,6 +11,7 @@ import {
 
 export default function GamePrevInfos({ game }: any) {    
     const date = new Date(game.released);
+    console.log(game)
     const releaseDate = date.toLocaleDateString("pt-BR");
     return (
             <div
@@ -87,7 +89,7 @@ export default function GamePrevInfos({ game }: any) {
                                         `}
                                 />
                             </div>
-                            <button
+                            {/* <button
                                 className={`col-span-3 flex flex-row text-base
                                 justify-center items-center border border-neutral-700  
                                 bg-neutral-700 rounded-xl py-1 lg:py-2 w-full h-full
@@ -100,7 +102,8 @@ export default function GamePrevInfos({ game }: any) {
                                     text-neutral-300 text-base md:text-lg
                                     cursor-pointer
                                 `} />
-                            </button>
+                            </button> */}
+                            <AddToCartBtn gameId={game.id} gameName={game.name} gameSlug={game.slug} />
                         </div>
                     </div>
                 </div>

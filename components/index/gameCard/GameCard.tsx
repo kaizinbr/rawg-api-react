@@ -9,9 +9,10 @@ import {
 } from "framer-motion";
 import { PiCaretDownBold, PiStarFill } from "react-icons/pi";
 import { HeartBtn, PostBtn, ShareBtn, MoreBtn } from "./cardCtrls";
+import { AddToCartBtn2 } from "@/components/cart/add-to-cart";
 import Transition from "../Transition";
 import AgeRatingSpan from "./AgeRatingSpan";
-import "./gameCard.css"
+import "./gameCard.css";
 
 interface CardProps {
     game: any;
@@ -23,6 +24,53 @@ const imgVariants = {
     },
 };
 
+// const AddToCartBtn = () => {
+//     return (
+//         <button
+//             className={`
+//                 addToCartBtn
+//                 flex flex-row justify-center items-center
+//                 w-4/5 h-9 rounded-lg
+//                 bg-neutral-300 text-neutral-900
+//                 hover:bg-neutral-800 border border-transparent hover:border-neutral-500 hover:text-neutral-300
+//                 transition duration-300
+//             `}
+//         >
+//             Adicionar ao carrinho
+//         </button>
+//     );
+// };
+
+const AddToWishlistBtn = () => {
+    return (
+        <button
+            className={`
+                addToCartBtn
+                flex flex-row justify-center items-center
+                w-1/5 h-9 rounded-lg
+                bg-neutral-800 border border-neutral-500
+                hover:bg-neutral-600
+                transition duration-300
+            `}
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4"
+            >
+                <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"
+                />
+            </svg>
+        </button>
+    );
+};
+
 const GameCard = ({ game }: CardProps) => {
     const [showInfos, setShowInfos] = useState(false);
     const [clicked, setClicked] = useState(false);
@@ -31,10 +79,11 @@ const GameCard = ({ game }: CardProps) => {
     const heightRef = useRef<any>(null);
 
     const isMobile = window.innerWidth < 992;
+    // console.log(game)
 
     useEffect(() => {
         setHeight(heightRef.current.clientHeight);
-        isMobile ? setShowInfos(true) : setShowInfos(false)
+        isMobile ? setShowInfos(true) : setShowInfos(false);
     }, []);
 
     const footerRef = useRef<any>(null);
@@ -51,7 +100,7 @@ const GameCard = ({ game }: CardProps) => {
         if (isHovered) {
             setShowInfos(true);
         } else {
-            console.log(isMobile)
+            console.log(isMobile);
             setShowInfos(false);
         }
 
@@ -110,13 +159,16 @@ const GameCard = ({ game }: CardProps) => {
 
                 <motion.div
                     className={`
-                    cardFooter p-4
-                    w-full flex flex-col justify-between items-start gap-4
-                    grow transition duration-300
+                    cardFooter 
+                    w-full 
+                    grow transition duration-300 z-10
                 `}
                     transition={{ type: "spring", stiffness: 400, damping: 30 }}
                     animate={{
-                        height: showInfos && !isMobile ? "250px" : footerInitialHeight,
+                        height:
+                            showInfos && !isMobile
+                                ? footerInitialHeight + 82
+                                : footerInitialHeight,
                     }}
                     // whileHover={{ height: 250, minHeight: 'auto' }}
                     onClick={() => {
@@ -137,123 +189,118 @@ const GameCard = ({ game }: CardProps) => {
                     }}
                     ref={footerRef}
                 >
-                    <div className="mainInfos w-full">
-                        {/* <h1>{heightF}</h1> */}
-                        <Link
-                            href={`/games/${game.id}/${game.slug}`}
-                            className={`
-                                text-neutral-300 text-lg font-semibold
-                                hover:text-emerald-300 transition duration-300
-                                w-fit
-                            `}
-                        >
-                            {game.name}
-                        </Link>
-                        <div
-                            className={`genres
-                                flex flex-row justify-start items-center
-                                gap-3
-                            `}
-                        >
-                            {game.genres
-                                .slice(0, 3)
-                                .map((genre: any, index: number) => {
-                                    return (
-                                        <div key={index}>
-                                            <Link
-                                                href={`/genres/${genre.slug}`}
-                                                className={`
-                                                text-neutral-300 text-xs font-normal
-                                                bg-neutral-700 px-2 py-1 rounded-md
-                                                `}
-                                            >
-                                                {genre.name}
-                                            </Link>
-                                        </div>
-                                    );
-                                })}
-                        </div>
-                    </div>
-                    <AnimatePresence>
-                        {showInfos && (
-                            <Transition
+                    <Link href={`/games/${game.id}/${game.slug}`}
+                        className={`
+                         p-4 w-full h-full
+                         flex flex-col justify-between items-start gap-4
+                        `}
+                    >
+                        <div className="mainInfos w-full">
+                            {/* <h1>{heightF}</h1> */}
+                            <h2
                                 className={`
-                                flex flex-col justify-between items-start
-                                w-full gap-4 h-full
-                                Hided `}
+                                    text-neutral-300 text-lg font-semibold
+                                    hover:text-emerald-300 transition duration-300
+                                    w-fit
+                                `}
                             >
-                                <div
-                                    className={`
+                                {game.name}
+                            </h2>
+                            <div
+                                className={`genres
                                     flex flex-row justify-start items-center
-                                    gap-3 text-xs font-bold`}
-                                >
-                                    <AgeRatingSpan
-                                        ageRatingId={game.esrb_rating?.id}
-                                        ageRatingName={game.esrb_rating?.name}
-                                    />
-                                    <div
-                                        className={`
-                                        text-neutral-300 text-sm font-bold
-                                        flex flex-row justify-start items-end
-                                        gap-1
-                                    `}
-                                    >
-                                        <PiStarFill
-                                            className={`text-amber-200 text-xl`}
-                                        />
-                                        <span>{game.rating}</span>
-                                        <p className="text-[10px] font-light">
-                                            {game.ratings_count} avaliações
-                                        </p>
-                                    </div>
-                                </div>
-                                <div
-                                    className={`
-                                flex flex-row justify-start items-center
-                                flex-wrap
-                                gap-2 text-xs font-bold `}
-                                >
-                                    <p>Tags:</p>
-                                    {game.tags
-                                        .slice(0, 3)
-                                        .map((tag: any, index: number) => {
-                                            return (
-                                                <div key={index}>
-                                                    <Link
-                                                        href={`/tags/${tag.slug}`}
-                                                        className={`
-                                                    text-neutral-300 text-[11px] font-normal
-                                                    bg-neutral-700 p-1 rounded-md
+                                    gap-3
+                                `}
+                            >
+                                {game.genres
+                                    .slice(0, 3)
+                                    .map((genre: any, index: number) => {
+                                        return (
+                                            <div key={index}>
+                                                <span
+                                                    className={`
+                                                    text-neutral-300 text-xs font-normal
+                                                    bg-neutral-700 px-2 py-1 rounded-md
                                                     `}
-                                                    >
-                                                        {tag.name}
-                                                    </Link>
-                                                </div>
-                                            );
-                                        })}
-                                    {/* </div> */}
-                                </div>
-                                <div
+                                                >
+                                                    {genre.name}
+                                                </span>
+                                            </div>
+                                        );
+                                    })}
+                            </div>
+                        </div>
+                        <AnimatePresence>
+                            {showInfos && (
+                                <Transition
                                     className={`
-                                cardCtrl w-full h-8 relative
-                                flex flex-row justify-around items-end
-                                bottom-0 `}
+                                    flex flex-col  items-start
+                                    w-full gap-3 h-full
+                                    Hided `}
                                 >
                                     <div
                                         className={`
-                                        flex flex-row justify-around items-center w-full
-                                        mb-0 absolute
-                                    `}
+                                        flex flex-row justify-start items-center
+                                        gap-3 text-xs font-bold`}
                                     >
-                                        <HeartBtn />
-                                        <PostBtn />
-                                        <ShareBtn />
-                                        <MoreBtn />
+                                        <AgeRatingSpan
+                                            ageRatingId={game.esrb_rating?.id}
+                                            ageRatingName={
+                                                game.esrb_rating?.name
+                                            }
+                                        />
+                                        <div
+                                            className={`
+                                            text-neutral-300 text-sm font-bold
+                                            flex flex-row justify-start items-end
+                                            gap-1
+                                        `}
+                                        >
+                                            <PiStarFill
+                                                className={`text-amber-200 text-xl`}
+                                            />
+                                            <span>{game.rating}</span>
+                                            <p className="text-[10px] font-light">
+                                                {game.ratings_count} avaliações
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </Transition>
-                        )}
-                    </AnimatePresence>
+                                    <div
+                                        className={`
+                                        flex flex-row justify-start items-center
+                                        gap-3 text-xs font-bold`}
+                                    >
+                                        <div
+                                            className={`
+                                            text-neutral-300 text-xl font-bold
+                                            flex flex-row justify-start items-end
+                                            gap-1
+                                        `}
+                                        >
+                                            <span>R$ 46,89</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className={`
+                                    cardCtrl w-full h-8 relative
+                                    flex flex-row justify-around items-end
+                                    bottom-0 `}
+                                    >
+                                        <div
+                                            className={`
+                                            flex flex-row justify-between items-center w-full
+                                            mb-0 absolute
+                                            gap-3
+                                        `}
+                                        >
+                                            {/* <AddToCartBtn2 gameId={game.id} gameName={game.name} gameSlug={game.slug} /> */}
+                                            {/* <AddToWishlistBtn /> */}
+                                        </div>
+                                    </div>
+                                </Transition>
+                            )}
+                        </AnimatePresence>
+                    </Link>
                 </motion.div>
             </div>
         </>

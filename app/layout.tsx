@@ -1,16 +1,23 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import Navbar from "@/components/navigation/Navbar";
 import "./globals.css";
 import ActionsMenu from "@/components/navigation/ActionsMenu";
 
-import { Inter } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 
-// If loading a variable font, you don't need to specify the font weight
-const inter = Inter({
+const Worksans = Work_Sans({
     subsets: ["latin"],
     display: "swap",
 });
+
+// If loading a variable font, you don't need to specify the font weight
+// const inter = Inter({
+//     subsets: ["latin"],
+//     display: "swap",
+// });
 import localFont from "next/font/local";
+import LoadingFull from "./loading";
 
 // Font files can be colocated inside of `app`
 const pretendard = localFont({
@@ -38,11 +45,11 @@ export default function RootLayout({
                 className={
                     pretendard.className +
                     ` 
-                bg-neutral-900 h-full mt-24 mb-20 text-neutral-300
+                bg-neutral-900 h-full mt-24 mb-20 text-neutral-300 flex flex-col justify-center items-center
             `
                 }
             >
-                <header className="fixed top-0 left-0 z-50 w-full">
+                <header className="fixed bottom-0 z-30 mx-auto flex flex-col justify-center items-center">
                     <Navbar />
                     {/* <ActionsMenu /> */}
                 </header>
@@ -63,7 +70,9 @@ export default function RootLayout({
                         dots
                     </Link>
                 </div>
-                <main>{children}</main>
+                <main className="w-full">
+                    <Suspense fallback={<LoadingFull />}>{children}</Suspense>
+                </main>
             </body>
         </html>
     );

@@ -21,7 +21,7 @@ const Feed = ({ columnsCount }: Props) => {
     const [next, setNext] = useState("");
     const [newGames, setNewGames] = useState<Game[]>([]);
     const [removeLoading, setRemoveLoading] = useState(false);
-    
+
     useEffect(() => {
         const fetchData = async () => {
             const gameData = await getGames();
@@ -37,7 +37,7 @@ const Feed = ({ columnsCount }: Props) => {
     const { scrollY } = useScroll();
 
     useMotionValueEvent(scrollY, "change", (latest: any) => {
-        console.log("Page scroll: ", latest);
+        // console.log("Page scroll: ", latest);
         if (latest >= document.body.clientHeight - 640) {
             setTimeToLoadGames(true);
             console.log(document.body.clientHeight - 448);
@@ -54,6 +54,8 @@ const Feed = ({ columnsCount }: Props) => {
         console.log(document.body.clientHeight - 640);
     }, [scrollY]);
 
+    let data;
+
     const LoadMoreGames = (url: string, columnsCount: number) => {
         useEffect(() => {
             const fetchData = async () => {
@@ -63,7 +65,10 @@ const Feed = ({ columnsCount }: Props) => {
                 setNext(gameData.next);
             };
             fetchData();
+
+            
         }, []);
+
 
         const columns = calculateColumns(newGames, columnsCount);
 
@@ -90,9 +95,9 @@ const Feed = ({ columnsCount }: Props) => {
     return (
         <div
             className={` feed
-            grid gap-6 grid-cols-${columnsCount}
+            grid gap-6 grid-cols-${columnsCount} justify-center
             px-4 md:px-8 items-start
-            max-w-screen-2xl mx-auto
+            max-w-screen-2xl mx-auto 
         `}
             style={{
                 gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`,
@@ -144,7 +149,8 @@ const Feed = ({ columnsCount }: Props) => {
             ) : (
                 <p>Algo errado</p>
             )}
-            {timeToLoadGames && (
+            {
+                timeToLoadGames && (
                     <div className="removibleLoading col-span-4 flex justify-center items-center h-24">
                         <svg className="spinner">
                             <circle>
@@ -177,9 +183,9 @@ const Feed = ({ columnsCount }: Props) => {
                             </circle>
                         </svg>
                     </div>
-                ) 
+                )
                 // LoadMoreGames(next, columnsCount)
-                }
+            }
         </div>
     );
 };
