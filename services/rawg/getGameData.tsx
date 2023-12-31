@@ -12,7 +12,7 @@ const getGames = async ({id}: Game): Promise<GameInfos> => {
     console.log(id)
     try {
         const response = await fetch(`https://api.rawg.io/api/games/${id}?key=${key}`);
-
+        // console.log(response)
         return response.json();
     } catch (error) {
         console.error('Error retrieving games:', error);

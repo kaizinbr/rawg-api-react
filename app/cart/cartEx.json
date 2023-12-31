@@ -1,0 +1,35 @@
+[
+    { "id": 12020, "name": "Left 4 Dead 2", "slug": "left-4-dead-2", "qty": 1 },
+    { "id": 4200, "name": "Portal 2", "slug": "portal-2", "qty": 1 },
+    {
+        "id": 3498,
+        "name": "Grand Theft Auto V",
+        "slug": "grand-theft-auto-v",
+        "qty": 1
+    },
+    {
+        "id": 4291,
+        "name": "Counter-Strike: Global Offensive",
+        "slug": "counter-strike-global-offensive",
+        "qty": 1
+    },
+    {
+        "id": 3328,
+        "name": "The Witcher 3: Wild Hunt",
+        "slug": "the-witcher-3-wild-hunt",
+        "qty": 1
+    },
+    {
+        "id": 5679,
+        "name": "The Elder Scrolls V: Skyrim",
+        "slug": "the-elder-scrolls-v-skyrim",
+        "qty": 1
+    },
+    { "id": 4286, "name": "BioShock", "slug": "bioshock", "qty": 1 },
+    {
+        "id": 23027,
+        "name": "The Walking Dead: Season 1",
+        "slug": "the-walking-dead",
+        "qty": 1
+    }
+]

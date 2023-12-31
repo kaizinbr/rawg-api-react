@@ -34,14 +34,14 @@ export default function GameSpecifications({ game }: any) {
     const localDate = date.toLocaleDateString("pt-BR");
 
     return (
-        <div className="grid grid-cols-8 gap-x-8 gap-y-4 col-span-6 md:col-span-8 bg-neutral-800 rounded-xl pt-4 pb-7 px-6 order-7">
+        <div className="grid grid-cols-8 gap-x-4 gap-y-4 col-span-6 md:col-span-8 bg-neutral-800 rounded-xl pt-4 pb-7 px-6 order-7">
             <div className="col-span-8">
                 <h3 className="text-2xl font-bold">Especificações</h3>
             </div>
             <div className="col-span-4">
                 <h4 className="text-neutral-300 font-normal">Website:</h4>
-                <Link className="font-semibold flex flex-row items-center gap-1" href={game.website}>
-                    {game.website.replace("https://", "")} 
+                <Link className="font-semibold flex flex-row items-center gap-1 flex-wrap text-wrap" href={game.website}>
+                    {game.website.replace("https://www.", "").replace("http://www.", "").replace("https://", "").replace("http://", "")} 
                     <BiArrowToRight className="text-xl" />
                 </Link>
             </div>
@@ -78,15 +78,15 @@ export default function GameSpecifications({ game }: any) {
             </div>            
             <div className="col-span-4">
                 <h4 className="text-neutral-300 font-normal">Playtime:</h4>
-                <p className="font-semibold">{game.playtime} horas</p>
+                <p className="font-semibold">{game.playtime ? game.playtime : 0} horas</p>
             </div>
             <div className="col-span-4">
                 <h4 className="text-neutral-300 font-normal">Classificação indicativa:</h4>
-                <p className="font-semibold">{game.esrb_rating.name}</p>
+                <p className="font-semibold">{game.esrb_rating ? game.esrb_rating.name : '...'}</p>
             </div>
             <div className="col-span-4">
                 <h4 className="text-neutral-300 font-normal">Série:</h4>
-                <p className="font-semibold">{game.game_series_count} jogos</p>
+                <p className="font-semibold">{game.game_series_count ? game.game_series_count : '...'} jogos</p>
             </div>
             <div className="col-span-4">
                 <h4 className="text-neutral-300 font-normal">Gêneros:</h4>

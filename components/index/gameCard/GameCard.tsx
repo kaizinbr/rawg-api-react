@@ -24,52 +24,6 @@ const imgVariants = {
     },
 };
 
-// const AddToCartBtn = () => {
-//     return (
-//         <button
-//             className={`
-//                 addToCartBtn
-//                 flex flex-row justify-center items-center
-//                 w-4/5 h-9 rounded-lg
-//                 bg-neutral-300 text-neutral-900
-//                 hover:bg-neutral-800 border border-transparent hover:border-neutral-500 hover:text-neutral-300
-//                 transition duration-300
-//             `}
-//         >
-//             Adicionar ao carrinho
-//         </button>
-//     );
-// };
-
-const AddToWishlistBtn = () => {
-    return (
-        <button
-            className={`
-                addToCartBtn
-                flex flex-row justify-center items-center
-                w-1/5 h-9 rounded-lg
-                bg-neutral-800 border border-neutral-500
-                hover:bg-neutral-600
-                transition duration-300
-            `}
-        >
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-4 h-4"
-            >
-                <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"
-                />
-            </svg>
-        </button>
-    );
-};
 
 const GameCard = ({ game }: CardProps) => {
     const [showInfos, setShowInfos] = useState(false);
@@ -79,7 +33,7 @@ const GameCard = ({ game }: CardProps) => {
     const heightRef = useRef<any>(null);
 
     const isMobile = window.innerWidth < 992;
-    // console.log(game)
+    // console.log(isMobile)
 
     useEffect(() => {
         setHeight(heightRef.current.clientHeight);
@@ -278,23 +232,6 @@ const GameCard = ({ game }: CardProps) => {
                                         `}
                                         >
                                             <span>R$ 46,89</span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        className={`
-                                    cardCtrl w-full h-8 relative
-                                    flex flex-row justify-around items-end
-                                    bottom-0 `}
-                                    >
-                                        <div
-                                            className={`
-                                            flex flex-row justify-between items-center w-full
-                                            mb-0 absolute
-                                            gap-3
-                                        `}
-                                        >
-                                            {/* <AddToCartBtn2 gameId={game.id} gameName={game.name} gameSlug={game.slug} /> */}
-                                            {/* <AddToWishlistBtn /> */}
                                         </div>
                                     </div>
                                 </Transition>

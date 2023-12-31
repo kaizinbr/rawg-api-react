@@ -19,11 +19,11 @@ export default function GameDesc({ game }: any) {
 
     // console.log(pArrCopy);
     return (
-        <div className="flex flex-col justify-center items-start col-span-6 md:col-span-12 min-[992px]:col-span-8 pr-3 order-3">
+        <div className="flex flex-col justify-center items-start col-span-6 md:col-span-12 min-[992px]:col-span-8 md:pr-3 order-3">
             <div>
                 <h3 className="text-2xl text-left font-bold">Descrição</h3>
             </div>
-            <div className="text-lg text-neutral-200 font-light text-justify">
+            <div className="md:text-lg text-md text-neutral-200 font-light text-justify">
                 {pArrCopy.map((p: any, index: string) => (
                     <p
                         key={index}

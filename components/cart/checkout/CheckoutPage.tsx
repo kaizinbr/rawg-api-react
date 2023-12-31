@@ -1,76 +1,88 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import CartCard from "./CartCard";
 import fetchGameDetails from "@/services/fetchGameOnCart";
-import RmFromCartBtn from "./RmFromCartBtn";
-
+import { getCartItems } from "@/services/getCart";
+import CartCard from "../CartCard";
 import { AnimatePresence, motion } from "framer-motion";
-import CheckoutBtn from "./CheckoutBtn";
+import ImgBox from "./imgBox";
+import { getMaxAge } from "next/dist/server/image-optimizer";
 
-export default function CartPage() {
+export default function CheckoutPage() {
     const [cartItems, setCartItems] = useState<any>([]);
     const [itemsLenght, setItemsLength] = useState<any>(0);
 
-    function getStoredCartItems() {
-        if (typeof window !== "undefined") {
-            const storedCartItems = localStorage.getItem("cartItems");
-            if (storedCartItems !== null) {
-                try {
-                    const cartItems = JSON.parse(storedCartItems);
-                    return cartItems;
-                } catch (error) {
-                    console.error(error);
-                }
-            }
-        }
-        return [];
-    }
+        // setCartItems(getCartItems());
 
     useEffect(() => {
-        const Lalalala =
-            localStorage.getItem("cartItems") ?? ""
-                ? JSON.parse(localStorage.getItem("cartItems") ?? "")
-                : [];
+        const Lalalala = getCartItems()
         setCartItems(Lalalala);
-        setItemsLength(Lalalala.length);
+        // console.log(Lalalala.slice(0,3));
     }, []);
 
     return (
         <div
             className={`
             flex flex-col
-            m-auto w-full  
-            xl:px-0 px-12
+            m-auto w-full
         `}
         >
             <h1 className="text-4xl mb-8">Seu carrinho</h1>
             <div
                 className={`
-                flex lg:flex-row flex-col
-                w-full gap-y-16
+                flex flex-row
             `}
             >
-                <div
-                    className={`
-                        flex flex-col
-                        grow gap-6
-                    `}
-                >
-                    <AnimatePresence>
-                        {cartItems.map((game: any, i: any) => {
-                            return <CartCard key={i} gameId={game.id} setItemsLength={setItemsLength} />;
-                        })}
-                    </AnimatePresence>
+                <div className={`
+                    flex flex-col
+                    grow
+                `}>
 
-                    {itemsLenght === 0 && (
-                        <h1 className="text-3xl mb-8">No games in cart</h1>
-                    )}
+                    <div
+                        className={`
+                            flex flex-col gap-6
+                        `}
+                    >
+                        <div
+                            className={`
+                                flex flex-col                            
+                            `}
+                        >
+                            <h3 className="text-2xl mb-4">Informe seu e-mail para receber os jogos</h3>
+                            <input type="email" className={`
+                                w- max-w-sm h-12 bg-neutral-800 text-white rounded-lg
+                                focus:outline-none
+                                px-4
+                        
+                            `} />
+                        </div>
+                        <div
+                            className={`
+
+                            `}
+                        >
+                            <h3 className="text-3xl">Forma de pagamento</h3>
+                        </div>
+                    </div>
+                    <div
+                        className={`
+                            flex flex-col
+                            grow gap-4
+                        `}
+                    >
+                        <h3 className="text-2xl">Você receberá</h3>
+                            {cartItems.map((game: any, i: any) => {
+                                return <span key={i}>{game.name}</span>;
+                            })}
+
+                        {/* {itemsLenght === 0 && (
+                            <h1 className="text-3xl mb-8">No games in cart</h1>
+                        )} */}
+                    </div>
                 </div>
                 <div
                     className={`
-                        lg:w-72 w-full lg:ml-6 flex-none
-                        flex flex-col justify-between
+                        w-72 ml-6 flex-none
                     `}
                 >
                     <div
@@ -125,8 +137,6 @@ export default function CartPage() {
                                 mt-4
                             `}
                         >
-                            <CheckoutBtn />
-                            {/* <RmFromCartBtn /> */}
                         </div>
                     </div>
                 </div>

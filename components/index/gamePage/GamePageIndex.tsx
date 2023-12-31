@@ -35,7 +35,7 @@ const GameApp = memo(function GameIndex({ id }: GameId) {
             className={`
             grid grid-cols-6 md:grid-cols-12
             m-auto sm:
-            gap-x-4 lg:gap-x-8 gap-y-10 lg:gap-y-16 mt-16
+            gap-x-4 lg:gap-x-8 gap-y-6 lg:gap-y-16 mt-16
             w-full lg:w-9/12 lg:min-w-[950px]
         `}
         >
@@ -53,9 +53,9 @@ const GameApp = memo(function GameIndex({ id }: GameId) {
                     <GameImage game={game} />
                     <GamePrevInfos game={game} />
                     <GameDesc game={game}></GameDesc>
-                    <GameMetacritic game={game} />
                     <GameScreenshots id={id} />
                     <GameRating game={game} />
+                    <GameMetacritic game={game} />
                     <GameSpecifications game={game} />
                     <GameMoreLinks game={game} />
                     <GamePlatforms game={game} />

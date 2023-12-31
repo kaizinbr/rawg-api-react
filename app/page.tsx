@@ -14,7 +14,7 @@ export default function Home() {
             flex flex-col items-center justify-center h-full w-full
             gap-20 col-span-12
         `}>
-            <Banner />
+            {/* <Banner /> */}
             <Index />
 
         </div>

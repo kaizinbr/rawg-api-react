@@ -45,8 +45,8 @@ function Bar(rateArr: {
     count: number;
     percent: number;
 }) {
-    const [isOpen, setIsOpen] = useState(false);
-    const scope = useMenuAnimation(isOpen);
+    // const [isOpen, setIsOpen] = useState(false);
+    // const scope = useMenuAnimation(isOpen);
 
     let color;
 
@@ -65,20 +65,20 @@ function Bar(rateArr: {
             break;
     }
 
-    const handleLabelTagOpen = () => {
-        setIsOpen(!isOpen);
-    };
+    // const handleLabelTagOpen = () => {
+    //     setIsOpen(!isOpen);
+    // };
 
     return (
-        <div className="w-full bg-neutral-800 rounded-full">
+        <div className="w-full bg-neutral-800 rounded-full overflow-hidden">
             <motion.div
                 className="relative flex flex-col h-5 cursor-pointer"
                 style={{ width: `${rateArr.percent}%` }}
                 onClick={() => {
-                    handleLabelTagOpen();
+                    // handleLabelTagOpen();
                 }}
             >
-                <div
+                {/* <div
                     className={`
                                     m-auto flex items-center justify-center
                                 `}
@@ -94,7 +94,7 @@ function Bar(rateArr: {
                         <span>{rateArr.count}</span>
                         <span>avaliações</span>
                     </div>
-                </div>
+                </div> */}
                 <div
                     className={
                         color +
@@ -211,9 +211,9 @@ export function GameMetacritic({ game }: any) {
 
     return (
         <div className={`
-            order-2 min-[992px]:order-4 flex flex-col justify-around items-center 
+            order-7 min-[992px]:order-4 flex flex-col justify-around items-center 
             bg-neutral-800 rounded-2xl p-4 gap-6 lg:max-h-[500px] max-h-[700px]
-            md:col-span-7 col-span-3 min-[992px]:col-span-4 
+            md:col-span-7 col-span-6 min-[992px]:col-span-4 
         `}>
             <div className="flex flex-col justify-center items-center gap-5">
                 <div
@@ -264,7 +264,7 @@ export function GameMetacritic({ game }: any) {
                                             <span className="text-xl font-semibold">
                                                 {platform.metascore}
                                             </span>
-                                            <span className="text-sm">
+                                            <span className="text-xs">
                                                 {platform.platform.name}
                                             </span>
                                         </div>

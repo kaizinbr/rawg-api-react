@@ -21,7 +21,7 @@ export default function GameMoreLinks({ game }: any) {
 
     const isASeries = game.game_series_count > 1;
     return (
-        <div className="flex flex-col justify-start items-start col-span-4 gap-6 bg-neutral-800 rounded-xl pt-4 pb-7 px-6 order-8">
+        <div className="flex flex-col justify-start items-start col-span-6 md:col-span-4 gap-6 bg-neutral-800 rounded-xl pt-4 pb-7 px-6 order-8">
             <div>
                 <h3 className="text-2xl text-left font-bold">Links</h3>
             </div>

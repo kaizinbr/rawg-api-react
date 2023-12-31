@@ -48,6 +48,16 @@ export default function GameScreenshots({ id }: GameId) {
         fetchData();
     }, [id]);
 
+    const cuWidth = window.innerWidth;
+    const cuHeight = window.innerHeight;
+    console.log({ cuWidth, cuHeight })
+    console.log(cuHeight / cuWidth * cuWidth)
+
+    useEffect(() => {
+        // setHeight(heightRef.current.clientHeight);
+        // isMobile ? setShowInfos(true) : setShowInfos(false);
+    }, []);
+
     // console.log({screenshots: screenshots})
 
     return (
@@ -67,13 +77,13 @@ export default function GameScreenshots({ id }: GameId) {
             >
                 {gotScreenshots &&
                     screenshots.map((screenshot: any) => (
-                        <SwiperSlide key={screenshot.id} className="max-w-[698.67px] screenshot-slide">
+                        <SwiperSlide key={screenshot.id} className="md:max-w-[698.67px] max-w-full screenshot-slide">
                             <Image                                
                                 src={screenshot.image}
                                 alt=""
-                                className="w-auto h-full rounded-lg m-2"
-                                width={698.67}
-                                height={392.33}
+                                className="w-auto h-full rounded-lg"
+                                width={cuWidth -60}
+                                height={cuHeight / cuWidth }
                                 // placeholder="blur"
                                 // blurDataURL=""
                             />
